@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"SA\",\"addressLine2\":\"\",\"city\":\"ASA\",\"country\":\"u"
+"s\",\"postalCode\":233,\"state\":\"ASD\"},\"secustomerName\":\"DASHA VAV\",\"secustomerPhone\""
+":8999999999,\"senumberOfProducts\":1,\"setransactionType\":\"SHIPPING_COST\",\"sessionId\":\"E"
+"0AC69D0242719E68F9EEE502E67C32B\"}"

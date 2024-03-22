@@ -1,0 +1,11 @@
+[t21]
+FileName1=t21_search.json
+URL1=https://www.advantageonlineshopping.com/catalog/api/v1/products/search?name=la&quantityPerEachCategory=10
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_21.xml
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

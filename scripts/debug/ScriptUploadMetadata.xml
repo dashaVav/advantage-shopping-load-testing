@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>debug</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="debug.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="debug.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_debug.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="170930637440.idx" Filter="1" />
+    <FileEntry Name="17093063744_0IC.477.idx" Filter="1" />
+    <FileEntry Name="17093063744_1sl.301.idx" Filter="1" />
+    <FileEntry Name="17093063744_2xT.771.idx" Filter="1" />
+    <FileEntry Name="17093063744_4Ue.269.idx" Filter="1" />
+    <FileEntry Name="17093063744_cju.23.idx" Filter="1" />
+    <FileEntry Name="17093063744_GFG.573.idx" Filter="1" />
+    <FileEntry Name="17093063744_GIJ.197.idx" Filter="1" />
+    <FileEntry Name="17093063744_HM0.5.idx" Filter="1" />
+    <FileEntry Name="17093063744_HmP.17.idx" Filter="1" />
+    <FileEntry Name="17093063744_hZx.303.idx" Filter="1" />
+    <FileEntry Name="17093063744_ITs.185.idx" Filter="1" />
+    <FileEntry Name="17093063744_JGG.437.idx" Filter="1" />
+    <FileEntry Name="17093063744_lF7.319.idx" Filter="1" />
+    <FileEntry Name="17093063744_mTN.561.idx" Filter="1" />
+    <FileEntry Name="17093063744_PSX.547.idx" Filter="1" />
+    <FileEntry Name="17093063744_Q3I.319.idx" Filter="1" />
+    <FileEntry Name="17093063744_UGC.533.idx" Filter="1" />
+    <FileEntry Name="17093063744_uRw.159.idx" Filter="1" />
+    <FileEntry Name="17093063744_vSt.533.idx" Filter="1" />
+    <FileEntry Name="17093063744_yFw.643.idx" Filter="1" />
+    <FileEntry Name="17093063744_YVb.25.idx" Filter="1" />
+    <FileEntry Name="17093063744_YYv.877.idx" Filter="1" />
+    <FileEntry Name="17093063744_Zdn.931.idx" Filter="1" />
+    <FileEntry Name="17093063744_Zjr.9.idx" Filter="1" />
+    <FileEntry Name="address(1).dat" Filter="1" />
+    <FileEntry Name="address(2).dat" Filter="1" />
+    <FileEntry Name="address(3).dat" Filter="1" />
+    <FileEntry Name="address.dat" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="debug.c.pickle" Filter="1" />
+    <FileEntry Name="debug.ci" Filter="1" />
+    <FileEntry Name="debug.prm.bak" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam(1).dat" Filter="1" />
+    <FileEntry Name="NewParam(2).dat" Filter="1" />
+    <FileEntry Name="NewParam(3).dat" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="NewParam_1.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="register.prm.bak" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="uc_02_register_user.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

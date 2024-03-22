@@ -1,0 +1,24 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(433): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(436): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(436): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(436): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(438): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(438): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(440): web_custom_request("GetAccountPaymentPreferencesRequest") started  	[MsgId: MMSG-26355]
+Action.c(440): Error -26366: "Text=<ns2:safePayUsername>hermione123</ns2:safePayUsername>" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(433): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(436): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(436): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(436): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(438): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(438): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(440): web_custom_request("GetAccountPaymentPreferencesRequest") started  	[MsgId: MMSG-26355]
+Action.c(440): Error -26366: "Text=<ns2:safePayUsername>hermione123</ns2:safePayUsername>" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

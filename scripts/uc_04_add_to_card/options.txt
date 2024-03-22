@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\HUAWEI\Documents\advantage-shopping-load-testing\scripts\uc_04_add_to_card
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\huawei\documents\advantage-shopping-load-testing\scripts\uc_04_add_to_card\\logfile.log
+c:\users\huawei\documents\advantage-shopping-load-testing\scripts\uc_04_add_to_card\\combined_uc_04_add_to_card.c
+c:\users\huawei\documents\advantage-shopping-load-testing\scripts\uc_04_add_to_card\\pre_cci.c

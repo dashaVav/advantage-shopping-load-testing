@@ -1,0 +1,2 @@
+[Hosts]
+localhost=c:\users\huawei\documents\advantage-shopping-load-testing\debug1\localhost_1.eve

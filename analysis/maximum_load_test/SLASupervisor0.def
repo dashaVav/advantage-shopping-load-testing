@@ -1,0 +1,43 @@
+﻿[SLASupervisor_BasicInfo]
+NumFilters=1
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=21
+UseEscapeSequence=1
+DimCount=21
+Dim_0=add_to_card
+Dim_1=fill_details_for_purchase
+Dim_2=login
+Dim_3=logout
+Dim_4=open_card
+Dim_5=open_item_page
+Dim_6=open_main_page
+Dim_7=open_registration_page
+Dim_8=open_search_page
+Dim_9=pay
+Dim_10=register
+Dim_11=remove_item
+Dim_12=search_request
+Dim_13=select_item_for_feedback
+Dim_14=send_feedback
+Dim_15=uc_01_send_feedback
+Dim_16=uc_02_register_user
+Dim_17=uc_03_search
+Dim_18=uc_04_add_to_card
+Dim_19=uc_05_buy_items
+Dim_20=uc_06_remove_item
+LikeMode=0
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!,!([Aminimum]-[Think Time])!,!([Amaximum]-[Think Time])!
+

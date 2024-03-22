@@ -1,0 +1,51 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2020.0.0.0
+Path=C:\Users\HUAWEI\Documents\advantage-shopping-load-testing\controllers\reliability.lrs
+Subject=debug
+Result_file=c:\users\huawei\documents\advantage-shopping-load-testing\reliability_test\reliability_test.lrr
+Description=
+ResultName=reliability_test
+Time_Zone=-10800
+Start_time=1711055670
+Daylight_Bias=0
+Stop_time=1711061244
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 20 Vusers: 1 every 00:00:06 (HH:MM:SS); Run for 01:30:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST20_1E6;R5400;SP20;
+
+[Scripts]
+uc_03_search_1=C:\Users\HUAWEI\Documents\advantage-shopping-load-testing\scripts\uc_03_search\uc_03_search.usr
+uc_04_add_to_card_1=C:\Users\HUAWEI\Documents\advantage-shopping-load-testing\scripts\uc_04_add_to_card\uc_04_add_to_card.usr
+uc_05_buy_items_1=C:\Users\HUAWEI\Documents\advantage-shopping-load-testing\scripts\uc_05_buy_items\uc_05_buy_items.usr
+uc_01_send_feedback_1=C:\Users\HUAWEI\Documents\advantage-shopping-load-testing\scripts\uc_01_send_feedback\uc_01_send_feedback.usr
+uc_02_register_user_1=C:\Users\HUAWEI\Documents\advantage-shopping-load-testing\scripts\uc_02_register_user\uc_02_register_user.usr
+uc_06_remove_item_1=C:\Users\HUAWEI\Documents\advantage-shopping-load-testing\scripts\uc_06_remove_item\uc_06_remove_item.usr
+
+[Scripts_types]
+uc_03_search_1=Multi+QTWeb
+uc_04_add_to_card_1=Multi+QTWeb
+uc_05_buy_items_1=Multi+QTWeb
+uc_01_send_feedback_1=Multi+QTWeb
+uc_02_register_user_1=Multi+QTWeb
+uc_06_remove_item_1=Multi+QTWeb
+

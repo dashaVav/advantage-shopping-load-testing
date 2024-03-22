@@ -1,0 +1,1415 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "upgrade",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "soapaction",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-version",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-protocol",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-extensions",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 28,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "мар-11-2024",
+    "RecordingDuration": 186125,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1710191300,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 77086,
+    "TotalBytesSent": 29998,
+    "TotalRequests": 28,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "yandex.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "213.180.193.234",
+          "IncludeInScript": false,
+          "Name": "api.browser.yandex.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 1375,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://api.browser.yandex.ru/uma_proto"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "yandex.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "87.250.251.232",
+          "IncludeInScript": false,
+          "Name": "sba.yandex.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 15,
+              "EventId": 1514,
+              "HttpStatus": 200,
+              "Size": 2168,
+              "URL": "https://sba.yandex.net/v4/threatListUpdates:fetch?$req=ChkKB2Jyb21pdW0SDjEyMC4wLjYwOTkuODA5GugDCOgHEAYa2AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NTk1NzM1MzU0YzZlNTI2ZjYzNmQ1NjY4NjQ0MzQ5NzM0OTQzNGE2YTYxNDc1NjZhNjEzMzRlMzE2MjUzNDkzNjQ5NDM0OTc4NjM0NTZiNzk2NDQ0NTY0NjUxNTQ0NjU1NTk1NjZjNDM1YTQ1NzQ1MTY0MzAzNTRjNjQzMDMxNDk1NDQ4NTI3NjU5NmI1MjMxNjI1NDUyMzU2NDQ0Njg2OTY0NTQ0MjU4NjIzMjUyNmI2NTQ0NGE3YTUwNTM0YTM5IgQgASACKAEa_wMICBABGvADNjU3OTRhN2E2NDQ3NDYzMDVhNTYzOTMyNWE1ODRhN2E2MTU3Mzk3NTQ5NmE2ZjY3NDk2YTQxNzU0ZDUzNDk3MzQ5NDM0YTczNTk1ODRlMzA1ODMyNTIzMTYyNTg0MjY2NjE1NzUxNjk0ZjY5NDE3OTRlNmE2NzMxNGQ1Mzc3Njc0OTZkNzg2ODYzMzM1MjY2NjM0NzQ2Nzk2NDQ3NmMzMDYxNTczOTc1NTgzMjZjNmI0OTZhNmY2NzRjNTQ0NTczNDk0MzRhNmQ2NDU3Nzg3MzU4MzI1MjMxNjI1ODQxNjk0ZjY5NDIzMDYzNmU1NjZjNGM0MzQxNjk2MjQ3NmM3YTY0NDczNTY4NjI1NzU1Njk0ZjY5NDE2OTY0MzI2ODcwNjQ0NzU1NzU1OTMzNGU2YjU4MzM2NDZmNjE1ODUyNmM2MjQ3NmM3YTY0NDM0OTczNDk0MzRhNmE2MTQ3NTY2YTYxMzM0ZTMxNjI1MzQ5MzY0OTQzNGE0MjUyMzA0YTZkNjI0NTU2NTQ1NzZjNGU1OTY1NmQzNDM0NjQ0NzMwNzg2MTU3NmM0NTRlMzAzODM0NGY0MzM5NzE2MzU3NzQ3MTRlMzI0NjZjNTQ2ZTVhNGY1MzMxNTEzNDVhNDU0OTc3NTk2YjZjNGU1MDUzNGEzOSIEIAEgAigBGvgDCOgHEAYa6AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjE0NzQ2N2E2MTQzMzU2OTU5NTc1MjZhNjM2ZTY4NzA1YTQ4NGQ2OTRjNDM0MTY5NTkzMjY4NmM1OTMyNzQ3YTY0NTczMDY5NGY2OTQxNjk2MzQ1MzQzMDU5NTY0ZTdhNTk1NjRlNTg1MzU1NWE3MDUzNmI1MjZiNTIzMzY4NzA2MjMwNzg0MjYzNTg2YzQ1NTY1NjZmMzI2MzQ2NDUzMDUzNDc0YTZmNWE0NDUyNTE0ZDZiMzg3OTY1NmU1YTcyNjM3YTMwNjk2NjUxM2QzZCIEIAEgAigEGogECOkHEAYa-AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjQ0NzY4Nzk1YTU3NDYzMDU4MzM1MjM1NjM0NzU2NjY2NDU4NGE3MzU4MzI2Yzc1NWE2ZDM4Njk0YzQzNDE2OTU5MzI2ODZjNTkzMjc0N2E2NDU3MzA2OTRmNjk0MTY5NTU1NjY4NmE1MjMwNzA2MTU5NTg0NjZiNjQ0NzY0MzI1YTQ1NTY3ODYzMzI3NDRhNTkzMTY4NzI1OTU1MzU0NzUyNDU1YTQzNjU1NTc0NGQ1MjU3NTY1NDY0NDY0NTMyNGQ1NjU2NmE1NTZlNDY1ODYzN2EzMDY5NjY1MTNkM2QiBCABIAIoASICCAM=&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "msftconnecttest.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "128.75.237.19",
+          "IncludeInScript": false,
+          "Name": "www.msftconnecttest.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1509,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "http://www.msftconnecttest.com/connecttest.txt"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1501,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "http://www.msftconnecttest.com/connecttest.txt?n=1710270746941"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": false,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1721,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/838fe786-bbda-4fab-801a-6f94001c7b68"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1716,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/188062b1-2eba-4816-bd5c-eb11e6384833"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1711,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/228a2f23-a794-4900-9beb-dd702f519c11"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1706,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/7584f82e-092d-4ebd-8d9f-509466a80307"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1701,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/10396648-1db6-4146-a44a-b26bd8431c19"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1696,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/d6d83e1b-62e4-43f3-a52b-2274716b4316"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1691,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/632923a9-69f4-4640-97dd-96bcdd054d75"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1686,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/a3c82ec7-7161-4add-937e-e69352a4ce4d"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1676,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/33b1b2b8-6731-48b0-a554-d869398dd147"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1671,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/420afaf1-4ebb-43c0-8e9b-2155d2d4f873"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1666,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/8c1821e2-58aa-4753-bc5c-ababb667653b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 1661,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/5364d371-3a9b-479a-aa20-a1a312de3875"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1656,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/a1f476dc-ed5d-4996-8671-193bec73e0a1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1651,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/a5f86b1e-4fc0-400a-acef-7a1fa06e67f5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1642,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/ff062622-c985-4865-82b4-72afbfdbd9ba"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1589,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/b3cd69f7-e6f8-4ddc-a22c-13360359be3c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1584,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/b720dfb2-8ea2-42d2-b189-a7ad3e81225a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1579,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/b7b2387e-c072-4c3b-ac10-1c8b5e7e26a2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1574,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/01d7712f-04b9-4de6-a2bc-04e0813aaa5b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1569,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/93a3ac7d-87f3-4430-b15d-18d82fe2809c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1564,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/2f82f750-ad79-4dc5-9caa-5a4d04948081"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1559,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/579d17c9-37a7-4160-9c9a-66098d2dbf8a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1554,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/21b02267-0ae9-41c5-a7f0-63022c8e6322"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1549,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/1715ba15-92e6-4291-b6bf-5d61a3260fec"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1544,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/461bb3e6-4b4e-4546-ae21-83f9c9e016f2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1539,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/763e3271-c030-49a7-aba3-912805e5853a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1534,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/84cd9dfb-f4c1-40fa-9ed9-5e703c06ea86"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1529,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/f2e8e971-8e31-4dcf-b7cc-7422c1f1ab51"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1524,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/13b3b0a6-12ec-4eb3-aac1-888df195fc71"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1519,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/0f2abce3-eeb9-407b-bf89-428a68bc5ec9"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 1474,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/d3205091-3dd6-4cb5-9f89-4cdcd10e86d8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 1469,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/c5f8a791-89a2-4ab6-8b21-67f6568eaaf5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1464,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/6ef1735f-5e34-473a-943b-0943b3ce9870"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1459,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/6f92832c-a007-429b-9b7c-c95993f4c8b8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1454,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/8ce8ba5e-473a-40e2-9ec6-e2644329f7fe"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1449,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/22789cb6-7612-4b9e-a4c2-bd4b257c7ce7"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1444,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/2fecc25d-1e4e-4d28-91ea-e3b723e92f36"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1439,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/527eb0ca-70e7-41da-b6f9-5b225e6ed79e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1434,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/90786af5-c42e-484b-ab53-de8cd3390665"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1429,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/69c2c455-8f56-4d58-93cd-0b971c8f43a3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1419,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/04bbfd25-f36e-4573-9528-25a143f69767"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1414,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/1e2c644a-ad58-4670-95ea-06fb3ea60b99"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1409,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/99c78908-ebf0-4751-a983-008d10dacd5b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1404,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/70941941-a7f9-4d74-92d6-e4d932300ae3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1399,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/2bc3eb34-d628-4a85-a5f7-26aa7bc9f5a5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1370,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/a4506709-fcd0-42af-909e-782854678d5d"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1357,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/a4aa2557-7b9b-4067-9206-b18d0b4e3428"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1342,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/8bf299c3-819c-4387-ba26-882131869050"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1332,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/3e29116b-e67e-4b5e-b9d8-e379647d4203"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 1327,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/ca531e00-e2a8-4857-8f6e-f00886e7f9de"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1322,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/095b142a-2110-4161-a7a9-1dc5fef7d5f7"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1312,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/1f583e41-eaf9-4fa9-bc8d-0b19c43e82d0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1307,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/7e386f4e-6139-4518-896c-ab6a1299e9f4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1302,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/54b4c682-0e20-484a-8f67-16259aa45092"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1292,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/fd633db8-a56b-4b85-978a-5a628f29fd20"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1287,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/3dfbd00f-b16b-4146-948a-2693459f32e7"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1273,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/0cf8a466-bd60-4622-a3d3-5b13fbf3f00f"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1244,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/71037025-804f-433e-a635-88d325eac1a1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1234,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/a63706a4-6c1d-4621-b2ae-e2bf2d9512c5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1208,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/852556b9-7be7-42a6-a4ae-ce7e46c9e9f1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.244.181.201",
+          "IncludeInScript": false,
+          "Name": "aus5.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 1189,
+              "HttpStatus": 200,
+              "Size": 565,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 16,
+              "EventId": 1184,
+              "HttpStatus": 200,
+              "Size": 565,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.243.93",
+          "IncludeInScript": false,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 1647,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1506,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1387,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1383,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1278,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 1204,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.237.239",
+          "IncludeInScript": false,
+          "Name": "contile.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1180,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "173.194.220.95",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 1199,
+              "HttpStatus": 200,
+              "Size": 2232,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDu4xUaAhgMA-OKAyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEPCDDhoCGAzWnzxnIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ-_oNGgIYDGr6QGAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARCfyg4aAhgM3DnVgSICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ=="
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "64.233.161.94",
+          "IncludeInScript": false,
+          "Name": "www.google.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 1608,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://www.google.ru/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=2100743852"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 1268,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://www.google.ru/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=1294306705"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.239.32.181",
+          "IncludeInScript": false,
+          "Name": "analytics.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1638,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&_s=6&tfd=170360"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1599,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=register&_ee=1&ep.event_category=Account&_et=67450&tfd=165329"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1493,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EhAI&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=21969&tfd=76897"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 1489,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=ABgI&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=registration&_c=1&_et=1&epn.value=0&tfd=76897"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 1379,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=9658&tfd=35979"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1264,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&tfd=21307"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "108.177.14.102",
+          "IncludeInScript": false,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 1623,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j101&a=1114944676&t=event&_s=6&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=signIn&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=52470847"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1613,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=786209403&gjid=1530856399&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1132712648"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1603,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1114944676&t=event&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=register&_u=CACAAEABAAAAACACIAC~&jid=1659752020&gjid=1750006749&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1343406739"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 1484,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=594710829"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1352,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACI~&jid=39087137&gjid=1577180435&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=615101980"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 1230,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.google-analytics.com/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_s=1&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=page_view&_ee=1&tfd=9380"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1226,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.google-analytics.com/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_eu=AEA&_s=2&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=scroll&epn.percent_scrolled=90&_et=4&tfd=19655"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1221,
+              "HttpStatus": 200,
+              "Size": 15,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=AACAAEABAAAAACAAI~&jid=1807237271&gjid=2129373088&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&_slc=1&z=1595178517"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "getpocket.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.188.166",
+          "IncludeInScript": false,
+          "Name": "spocs.getpocket.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 1194,
+              "HttpStatus": 200,
+              "Size": 1168,
+              "URL": "https://spocs.getpocket.com/spocs"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.221.82",
+          "IncludeInScript": false,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1394,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1390,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 1170,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1166,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "advantageonlineshopping.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.227.55.203",
+          "IncludeInScript": true,
+          "Name": "www.advantageonlineshopping.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 1681,
+              "HttpStatus": 200,
+              "Size": 402,
+              "URL": "https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 1633,
+              "HttpStatus": 200,
+              "Size": 100,
+              "URL": "https://www.advantageonlineshopping.com/order/api/v1/carts/214997259"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 1628,
+              "HttpStatus": 200,
+              "Size": 111,
+              "URL": "https://www.advantageonlineshopping.com/order/api/v1/carts/214997259"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 1618,
+              "HttpStatus": 200,
+              "Size": 799,
+              "URL": "https://www.advantageonlineshopping.com/accountservice/ws/AccountLoginRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 1594,
+              "HttpStatus": 200,
+              "Size": 443,
+              "URL": "https://www.advantageonlineshopping.com/accountservice/ws/AccountCreateRequest"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 1497,
+              "HttpStatus": 200,
+              "Size": 4184,
+              "URL": "https://www.advantageonlineshopping.com/accountservice/ws/GetCountriesRequest"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 1479,
+              "HttpStatus": 200,
+              "Size": 1469,
+              "URL": "https://www.advantageonlineshopping.com/app/user/views/register-page.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 1424,
+              "HttpStatus": 200,
+              "Size": 1029,
+              "URL": "https://www.advantageonlineshopping.com/css/images/FacebookLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 1366,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1362,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1347,
+              "HttpStatus": 200,
+              "Size": 2243,
+              "URL": "https://www.advantageonlineshopping.com/app/views/home-page.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 1337,
+              "HttpStatus": 200,
+              "Size": 500,
+              "URL": "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 1317,
+              "HttpStatus": 200,
+              "Size": 351,
+              "URL": "https://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 1297,
+              "HttpStatus": 200,
+              "Size": 4959,
+              "URL": "https://www.advantageonlineshopping.com/catalog/api/v1/categories"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 1282,
+              "HttpStatus": 200,
+              "Size": 823,
+              "URL": "https://www.advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 1259,
+              "HttpStatus": 200,
+              "Size": 599,
+              "URL": "https://www.advantageonlineshopping.com/catalog/api/v1/products/25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 1254,
+              "HttpStatus": 200,
+              "Size": 24576,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 1249,
+              "HttpStatus": 200,
+              "Size": 25048,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 1239,
+              "HttpStatus": 200,
+              "Size": 6541,
+              "URL": "https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 1217,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1213,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.advantageonlineshopping.com/services.properties"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1175,
+              "HttpStatus": 200,
+              "Size": 2909,
+              "URL": "https://www.advantageonlineshopping.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

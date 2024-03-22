@@ -1,0 +1,15 @@
+POST https://www.advantageonlineshopping.com/order/api/v1/shippingcost/ HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/json;charset=utf-8
+Origin: https://www.advantageonlineshopping.com
+Referer: https://www.advantageonlineshopping.com/
+Cookie: JSESSIONID=E0AC69D0242719E68F9EEE502E67C32B; _ga_TBPYED8WSW=GS1.1.1710937401.6.1.1710938931.0.0.0; _ga=GA1.2.195396409.1710188489; _ga_56EMNRF2S2=GS1.2.1710937950.6.1.1710939256.60.0.0; _gid=GA1.2.1959558917.1710937946; _gat=1
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Host: www.advantageonlineshopping.com
+Content-Length: 276
+

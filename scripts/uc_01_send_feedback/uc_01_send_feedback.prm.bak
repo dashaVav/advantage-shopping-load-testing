@@ -1,0 +1,8 @@
+[parameter:categoryId]
+Format="%lu"
+GenerateNewVal="EachIteration"
+MaxValue="5"
+MinValue="1"
+OriginalValue=""
+ParamName="categoryId"
+Type="Random"

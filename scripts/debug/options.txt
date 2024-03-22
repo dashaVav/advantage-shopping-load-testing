@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\HUAWEI\Documents\advantage-shopping-load-testing\scripts\debug
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\huawei\documents\advantage-shopping-load-testing\scripts\debug\\logfile.log
+c:\users\huawei\documents\advantage-shopping-load-testing\scripts\debug\\combined_debug.c
+c:\users\huawei\documents\advantage-shopping-load-testing\scripts\debug\\pre_cci.c

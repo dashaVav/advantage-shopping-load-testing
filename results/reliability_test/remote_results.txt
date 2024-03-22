@@ -1,0 +1,2 @@
+[Hosts]
+localhost=c:\users\huawei\documents\advantage-shopping-load-testing\reliability_test\localhost_81.eve

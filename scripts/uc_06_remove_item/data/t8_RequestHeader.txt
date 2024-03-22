@@ -1,0 +1,19 @@
+POST https://api.github.com/_private/browser/stats HTTP/1.1
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "YaBrowser";v="24.1", "Yowser";v="2.5"
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: https://github.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Referer: https://github.com/dashaVav/loadrunner-webtours/tree/master/Scripts
+Accept-Encoding: gzip, deflate
+Accept-Language: ru,en;q=0.9
+Cookie: _octo=GH1.1.985325878.1681745940; logged_in=yes; dotcom_user=dashaVav; fileTreeExpanded=true; color_mode=%7B%22color_mode%22%3A%22auto%22%2C%22light_theme%22%3A%7B%22name%22%3A%22light%22%2C%22color_mode%22%3A%22light%22%7D%2C%22dark_theme%22%3A%7B%22name%22%3A%22dark%22%2C%22color_mode%22%3A%22dark%22%7D%7D; preferred_color_mode=dark; tz=Europe%2FMoscow
+Host: api.github.com
+Content-Length: 287
+Connection: Keep-Alive
+

@@ -1,0 +1,14 @@
+GET https://www.advantageonlineshopping.com/ HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: _ga_TBPYED8WSW=GS1.1.1710937401.6.1.1710938182.0.0.0; _ga=GA1.2.195396409.1710188489; _ga_56EMNRF2S2=GS1.2.1710937950.6.1.1710938081.57.0.0; _gid=GA1.2.1959558917.1710937946
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Host: www.advantageonlineshopping.com
+Connection: Keep-Alive
+

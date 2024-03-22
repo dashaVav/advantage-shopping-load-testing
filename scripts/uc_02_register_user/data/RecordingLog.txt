@@ -1,0 +1,1306 @@
+[API Trapper      (309c:1820)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (5c6c:34f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5c6c:34f8)] Load Network Traffic Analyzers:
+[Network Analyzer (5c6c:34f8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (5c6c:34f8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (5c6c:34f8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (5c6c:34f8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (5c6c:34f8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (5c6c:34f8)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (5c6c:34f8)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (5c6c:34f8)] Started proxy on port 8888 listening IP 192.168.0.100, 127.0.0.1, in synchronous mode
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48199
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48200
+[Proxy Recording  (5c6c:4cb8)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48201
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48202
+[Proxy Recording  (5c6c:4cb8)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48204
+[Proxy Recording  (5c6c:4cb8)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48207
+[Web Request      (5c6c:4cb8)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (5c6c:4cb8)]   (Sid:  1) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer (5c6c:4cb8)]   (Sid:  1) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (5c6c:4cb8)]   (Sid:  1) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (5c6c:4cb8)] Sent 90 bytes to client @ 127.0.0.1:48200
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48210
+[Proxy Recording  (5c6c:4cb8)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (5c6c:4cb8)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (5c6c:4cb8)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (5c6c:4cb8)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (5c6c:4cb8)]   (Sid:  2) Client -> Server @ : 312 bytes (Service=HTTP)
+[Network Analyzer (5c6c:4cb8)]   (Sid:  2) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (5c6c:4cb8)]   (Sid:  2) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (5c6c:4cb8)] Sent 8 bytes to client @ 127.0.0.1:48210
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48212
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48213
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48215
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48216
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48218
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48219
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48220
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48221
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48222
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48223
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48224
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48225
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48226
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48227
+[Proxy Recording  (5c6c:3cb8)] Trying to connect to https://www.advantageonlineshopping.com:443/ ...
+[Proxy Recording  (5c6c:3cb8)] Trying to connect to https://www.advantageonlineshopping.com:443/ ...
+[Proxy Recording  (5c6c:3cb8)] Received response of 432 header and 2909 body bytes from https://www.advantageonlineshopping.com:443/
+[Web Request      (5c6c:3cb8)] "GET https://www.advantageonlineshopping.com/"   
+[Network Analyzer (5c6c:3cb8)]   (Sid:  3) Client -> Server @ : 1080 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:3cb8)]   (Sid:  3) Server -> Client : 419 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:3cb8)]   (Sid:  3) Server -> Client : 2909 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:3cb8)] Sent 2909 bytes to client @ 127.0.0.1:48199
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48230
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48231
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48232
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48233
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48234
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48235
+[Proxy Recording  (5c6c:2ac4)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (5c6c:2ac4)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (5c6c:2ac4)] Received response of 249 header and 0 body bytes from https://contile.services.mozilla.com:443/v1/tiles
+[Web Request      (5c6c:2ac4)] "GET https://contile.services.mozilla.com/v1/tiles"   
+[Network Analyzer (5c6c:2ac4)]   (Sid:  4) Client -> Server @ : 294 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2ac4)]   (Sid:  4) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:2ac4)] Sent 0 bytes to client @ 127.0.0.1:48201
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48238
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml ...
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml ...
+[Proxy Recording  (5c6c:3a64)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1 ...
+[Proxy Recording  (5c6c:3a64)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1 ...
+[Proxy Recording  (5c6c:53b4)] Trying to connect to https://spocs.getpocket.com:443/spocs ...
+[Proxy Recording  (5c6c:58dc)] Received response of 449 header and 565 body bytes from https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml
+[Web Request      (5c6c:58dc)] "GET https://aus5.mozilla.org/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml"   
+[Network Analyzer (5c6c:58dc)]   (Sid:  5) Client -> Server @ : 480 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid:  5) Server -> Client : 438 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid:  5) Server -> Client : 565 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:58dc)] Sent 565 bytes to client @ 127.0.0.1:48202
+[Proxy Recording  (5c6c:3a64)] Received response of 452 header and 565 body bytes from https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1
+[Proxy Recording  (5c6c:53b4)] Trying to connect to https://spocs.getpocket.com:443/spocs ...
+[Web Request      (5c6c:3a64)] "GET https://aus5.mozilla.org/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.3155%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1"   
+[Network Analyzer (5c6c:3a64)]   (Sid:  6) Client -> Server @ : 488 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:3a64)]   (Sid:  6) Server -> Client : 441 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:3a64)]   (Sid:  6) Server -> Client : 565 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:3a64)] Sent 565 bytes to client @ 127.0.0.1:48207
+[Proxy Recording  (5c6c:53b4)] Received response of 167 header and 1168 body bytes from https://spocs.getpocket.com:443/spocs
+[Network Analyzer (5c6c:53b4)]   (Sid:  7) Client -> Server @ : 327 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:53b4)] "POST https://spocs.getpocket.com/spocs"   
+[Network Analyzer (5c6c:53b4)]   (Sid:  7) Client -> Server @ : 197 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:53b4)]   (Sid:  7) Server -> Client : 184 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:53b4)]   (Sid:  7) Server -> Client : 1168 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:53b4)] Sent 1168 bytes to client @ 127.0.0.1:48204
+[Proxy Recording  (5c6c:4cb8)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDu4xUaAhgMA-OKAyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEPCDDhoCGAzWnzxnIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ-_oNGgIYDGr6QGAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARCfyg4aAhgM3DnVgSICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ== ...
+[Proxy Recording  (5c6c:4cb8)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDu4xUaAhgMA-OKAyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEPCDDhoCGAzWnzxnIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ-_oNGgIYDGr6QGAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARCfyg4aAhgM3DnVgSICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ== ...
+[Proxy Recording  (5c6c:4cb8)] Received response of 341 header and 2232 body bytes from https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDu4xUaAhgMA-OKAyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEPCDDhoCGAzWnzxnIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ-_oNGgIYDGr6QGAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARCfyg4aAhgM3DnVgSICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ==
+[Web Request      (5c6c:4cb8)] "GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDu4xUaAhgMA-OKAyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEPCDDhoCGAzWnzxnIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ-_oNGgIYDGr6QGAiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARCfyg4aAhgM3DnVgSICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ=="   
+[Network Analyzer (5c6c:4cb8)]   (Sid:  8) Client -> Server @ : 851 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:4cb8)]   (Sid:  8) Server -> Client : 358 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:4cb8)]   (Sid:  8) Server -> Client : 2232 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:4cb8)] Sent 2232 bytes to client @ 127.0.0.1:48212
+[Proxy Recording  (5c6c:6484)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (5c6c:6484)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (5c6c:6484)]   (Sid:  9) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6484)]   (Sid:  9) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording.Error (5c6c:22d8)] Exception is caught while trying to connect to https://www.advantageonlineshopping.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (5c6c:22d8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (5c6c:4028)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (5c6c:4028)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/852556b9-7be7-42a6-a4ae-ce7e46c9e9f1 ...
+[Proxy Recording.Error (5c6c:30b4)] Cannot add request header message:Заголовок "Date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/852556b9-7be7-42a6-a4ae-ce7e46c9e9f1 ...
+[Proxy Recording  (5c6c:30b4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/852556b9-7be7-42a6-a4ae-ce7e46c9e9f1
+[Network Analyzer (5c6c:30b4)]   (Sid: 10) Client -> Server @ : 462 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:30b4)] "POST https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/852556b9-7be7-42a6-a4ae-ce7e46c9e9f1"   
+[Network Analyzer (5c6c:30b4)]   (Sid: 10) Client -> Server @ : 452 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 10) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 10) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30b4)] Sent 20 bytes to client @ 127.0.0.1:48216
+[Proxy Recording.Error (5c6c:6fbc)] Exception is caught while trying to connect to https://www.googletagmanager.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (5c6c:2fdc)] Exception is caught while trying to connect to https://www.advantageonlineshopping.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (5c6c:6fbc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (5c6c:2fdc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://www.advantageonlineshopping.com:443/services.properties ...
+[Proxy Recording  (5c6c:3cb8)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff ...
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://www.advantageonlineshopping.com:443/services.properties ...
+[Proxy Recording  (5c6c:3cb8)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff ...
+[Proxy Recording  (5c6c:5fc8)] Received response of 197 header and 0 body bytes from https://www.advantageonlineshopping.com:443/services.properties
+[Web Request      (5c6c:5fc8)] "GET https://www.advantageonlineshopping.com/services.properties"   
+[Network Analyzer (5c6c:5fc8)]   (Sid: 11) Client -> Server @ : 1083 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 11) Server -> Client : 212 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5fc8)] Sent 0 bytes to client @ 127.0.0.1:48234
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48256
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48257
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48258
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48259
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48260
+[Proxy Recording  (5c6c:3cb8)] Received response of 198 header and 0 body bytes from https://www.advantageonlineshopping.com:443/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff
+[Web Request      (5c6c:3cb8)] "GET https://www.advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff"   
+[Network Analyzer (5c6c:3cb8)]   (Sid: 12) Client -> Server @ : 1199 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:3cb8)]   (Sid: 12) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:3cb8)] Sent 0 bytes to client @ 127.0.0.1:48233
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48261
+[Proxy Recording  (5c6c:2ac4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/a63706a4-6c1d-4621-b2ae-e2bf2d9512c5 ...
+[Proxy Recording.Error (5c6c:2ac4)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:2ac4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/a63706a4-6c1d-4621-b2ae-e2bf2d9512c5 ...
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://www.google-analytics.com:443/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_eu=AEA&_s=2&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=scroll&epn.percent_scrolled=90&_et=4&tfd=19655 ...
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=AACAAEABAAAAACAAI~&jid=1807237271&gjid=2129373088&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&_slc=1&z=1595178517 ...
+[Proxy Recording  (5c6c:5ca0)] Trying to connect to https://www.google-analytics.com:443/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_s=1&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=page_view&_ee=1&tfd=9380 ...
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48273
+[Proxy Recording  (5c6c:22d8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/71037025-804f-433e-a635-88d325eac1a1 ...
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://www.google-analytics.com:443/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_eu=AEA&_s=2&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=scroll&epn.percent_scrolled=90&_et=4&tfd=19655 ...
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=AACAAEABAAAAACAAI~&jid=1807237271&gjid=2129373088&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&_slc=1&z=1595178517 ...
+[Proxy Recording.Error (5c6c:22d8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:30b4)] Received response of 501 header and 15 body bytes from https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=AACAAEABAAAAACAAI~&jid=1807237271&gjid=2129373088&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&_slc=1&z=1595178517
+[Proxy Recording  (5c6c:5fc8)] Received response of 421 header and 0 body bytes from https://www.google-analytics.com:443/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_eu=AEA&_s=2&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=scroll&epn.percent_scrolled=90&_et=4&tfd=19655
+[Proxy Recording  (5c6c:5ca0)] Trying to connect to https://www.google-analytics.com:443/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_s=1&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=page_view&_ee=1&tfd=9380 ...
+[Proxy Recording  (5c6c:53b4)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff ...
+[Proxy Recording  (5c6c:53b4)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff ...
+[Proxy Recording  (5c6c:4028)] Trying to connect to https://www.advantageonlineshopping.com:443/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL ...
+[Proxy Recording  (5c6c:6484)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff ...
+[Proxy Recording  (5c6c:6fbc)] Trying to connect to https://www.advantageonlineshopping.com:443/catalog/api/v1/products/25 ...
+[Proxy Recording  (5c6c:4028)] Trying to connect to https://www.advantageonlineshopping.com:443/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL ...
+[Proxy Recording  (5c6c:6484)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff ...
+[Proxy Recording  (5c6c:6fbc)] Trying to connect to https://www.advantageonlineshopping.com:443/catalog/api/v1/products/25 ...
+[Web Request      (5c6c:30b4)] "POST https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=AACAAEABAAAAACAAI~&jid=1807237271&gjid=2129373088&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&_slc=1&z=1595178517"   
+[Network Analyzer (5c6c:30b4)]   (Sid: 13) Client -> Server @ : 840 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 13) Server -> Client : 518 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5ca0)] Received response of 421 header and 0 body bytes from https://www.google-analytics.com:443/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_s=1&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=page_view&_ee=1&tfd=9380
+[Network Analyzer (5c6c:30b4)]   (Sid: 13) Server -> Client : 15 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30b4)] Sent 15 bytes to client @ 127.0.0.1:48259
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48276
+[Proxy Recording  (5c6c:22d8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/71037025-804f-433e-a635-88d325eac1a1 ...
+[Web Request      (5c6c:5fc8)] "POST https://www.google-analytics.com/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_eu=AEA&_s=2&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=scroll&epn.percent_scrolled=90&_et=4&tfd=19655"   
+[Network Analyzer (5c6c:5fc8)]   (Sid: 14) Client -> Server @ : 806 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 14) Server -> Client : 446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5fc8)] Sent 0 bytes to client @ 127.0.0.1:48261
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48277
+[Web Request      (5c6c:5ca0)] "POST https://www.google-analytics.com/g/collect?v=2&tid=G-TBPYED8WSW&gtm=45je43b0v897424900za200&_p=1710270666566&gcd=13l3l3l3l1&npa=0&dma=0&cid=195396409.1710188489&ul=en-us&sr=1536x864&pscdl=noapi&_s=1&sid=1710268615&sct=3&seg=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&en=page_view&_ee=1&tfd=9380"   
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48278
+[Network Analyzer (5c6c:5ca0)]   (Sid: 15) Client -> Server @ : 752 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5ca0)]   (Sid: 15) Server -> Client : 446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5ca0)] Sent 0 bytes to client @ 127.0.0.1:48235
+[Proxy Recording  (5c6c:2ac4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/a63706a4-6c1d-4621-b2ae-e2bf2d9512c5
+[Network Analyzer (5c6c:2ac4)]   (Sid: 16) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:2ac4)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/a63706a4-6c1d-4621-b2ae-e2bf2d9512c5"   
+[Network Analyzer (5c6c:2ac4)]   (Sid: 16) Client -> Server @ : 865 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2ac4)]   (Sid: 16) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:2ac4)]   (Sid: 16) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording.Error (5c6c:2ac4)] Exception is caught while sending data to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/a63706a4-6c1d-4621-b2ae-e2bf2d9512c5, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (5c6c:4028)] Received response of 400 header and 6541 body bytes from https://www.advantageonlineshopping.com:443/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+[Web Request      (5c6c:4028)] "GET https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"   
+[Network Analyzer (5c6c:4028)]   (Sid: 17) Client -> Server @ : 1056 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:4028)]   (Sid: 17) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:4028)]   (Sid: 17) Server -> Client : 6541 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:4028)] Sent 6541 bytes to client @ 127.0.0.1:48258
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48279
+[Proxy Recording  (5c6c:22d8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/71037025-804f-433e-a635-88d325eac1a1
+[Proxy Recording  (5c6c:53b4)] Received response of 380 header and 25048 body bytes from https://www.advantageonlineshopping.com:443/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+[Network Analyzer (5c6c:22d8)]   (Sid: 18) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:22d8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/71037025-804f-433e-a635-88d325eac1a1"   
+[Network Analyzer (5c6c:22d8)]   (Sid: 18) Client -> Server @ : 862 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:22d8)]   (Sid: 18) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:22d8)]   (Sid: 18) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:22d8)] Sent 20 bytes to client @ 127.0.0.1:48273
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48280
+[Web Request      (5c6c:53b4)] "GET https://www.advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff"   
+[Network Analyzer (5c6c:53b4)]   (Sid: 19) Client -> Server @ : 1107 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:53b4)]   (Sid: 19) Server -> Client : 395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:53b4)]   (Sid: 19) Server -> Client : 25048 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:53b4)] Sent 25048 bytes to client @ 127.0.0.1:48257
+[Proxy Recording  (5c6c:6484)] Received response of 380 header and 24576 body bytes from https://www.advantageonlineshopping.com:443/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff
+[Web Request      (5c6c:6484)] "GET https://www.advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff"   
+[Network Analyzer (5c6c:6484)]   (Sid: 20) Client -> Server @ : 1105 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6484)]   (Sid: 20) Server -> Client : 395 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6484)]   (Sid: 20) Server -> Client : 24576 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6484)] Sent 24576 bytes to client @ 127.0.0.1:48256
+[Proxy Recording  (5c6c:6fbc)] Received response of 400 header and 599 body bytes from https://www.advantageonlineshopping.com:443/catalog/api/v1/products/25
+[Web Request      (5c6c:6fbc)] "GET https://www.advantageonlineshopping.com/catalog/api/v1/products/25"   
+[Network Analyzer (5c6c:6fbc)]   (Sid: 21) Client -> Server @ : 1039 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6fbc)]   (Sid: 21) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6fbc)]   (Sid: 21) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6fbc)] Sent 599 bytes to client @ 127.0.0.1:48260
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48281
+[Proxy Recording  (5c6c:34cc)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&tfd=21307 ...
+[Proxy Recording  (5c6c:34cc)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&tfd=21307 ...
+[Proxy Recording  (5c6c:34cc)] Received response of 421 header and 0 body bytes from https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&tfd=21307
+[Web Request      (5c6c:34cc)] "POST https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&tfd=21307"   
+[Network Analyzer (5c6c:34cc)]   (Sid: 22) Client -> Server @ : 798 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:34cc)]   (Sid: 22) Server -> Client : 446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:34cc)] Sent 0 bytes to client @ 127.0.0.1:48277
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (5c6c:5ca0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/0cf8a466-bd60-4622-a3d3-5b13fbf3f00f ...
+[Proxy Recording.Error (5c6c:5ca0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5ca0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/0cf8a466-bd60-4622-a3d3-5b13fbf3f00f ...
+[Proxy Recording  (5c6c:4cb8)] Trying to connect to https://www.google.ru:443/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=1294306705 ...
+[Proxy Recording  (5c6c:4cb8)] Trying to connect to https://www.google.ru:443/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=1294306705 ...
+[Proxy Recording  (5c6c:4cb8)] Received response of 503 header and 42 body bytes from https://www.google.ru:443/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=1294306705
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/GetAccountConfigurationRequest ...
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/GetAccountConfigurationRequest ...
+[Web Request      (5c6c:4cb8)] "GET https://www.google.ru/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=1294306705"   
+[Network Analyzer (5c6c:4cb8)]   (Sid: 23) Client -> Server @ : 561 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:4cb8)]   (Sid: 23) Server -> Client : 520 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:4cb8)]   (Sid: 23) Server -> Client : 42 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:4cb8)] Sent 42 bytes to client @ 127.0.0.1:48278
+[Proxy Recording  (5c6c:5ca0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/0cf8a466-bd60-4622-a3d3-5b13fbf3f00f
+[Network Analyzer (5c6c:5ca0)]   (Sid: 24) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5ca0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/0cf8a466-bd60-4622-a3d3-5b13fbf3f00f"   
+[Network Analyzer (5c6c:5ca0)]   (Sid: 24) Client -> Server @ : 1445 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5ca0)]   (Sid: 24) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5ca0)]   (Sid: 24) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5ca0)] Sent 20 bytes to client @ 127.0.0.1:48280
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48290
+[Web Request      (5c6c:30b4)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (5c6c:30b4)]   (Sid: 25) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 25) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/3dfbd00f-b16b-4146-948a-2693459f32e7 ...
+[Proxy Recording.Error (5c6c:5fc8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/3dfbd00f-b16b-4146-948a-2693459f32e7 ...
+[Proxy Recording  (5c6c:58dc)] Received response of 732 header and 823 body bytes from https://www.advantageonlineshopping.com:443/accountservice/ws/GetAccountConfigurationRequest
+[Network Analyzer (5c6c:58dc)]   (Sid: 26) Client -> Server @ : 1295 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:58dc)] "POST https://www.advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest"   
+[Network Analyzer (5c6c:58dc)]   (Sid: 26) Client -> Server @ : 361 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid: 26) Server -> Client : 747 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid: 26) Server -> Client : 823 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:58dc)] Sent 823 bytes to client @ 127.0.0.1:48279
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48292
+[Proxy Recording  (5c6c:5fc8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/3dfbd00f-b16b-4146-948a-2693459f32e7
+[Network Analyzer (5c6c:5fc8)]   (Sid: 27) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5fc8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/3dfbd00f-b16b-4146-948a-2693459f32e7"   
+[Network Analyzer (5c6c:5fc8)]   (Sid: 27) Client -> Server @ : 773 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 27) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 27) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5fc8)] Sent 20 bytes to client @ 127.0.0.1:48290
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48294
+[Proxy Recording  (5c6c:2fdc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/fd633db8-a56b-4b85-978a-5a628f29fd20 ...
+[Proxy Recording.Error (5c6c:2fdc)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:2fdc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/fd633db8-a56b-4b85-978a-5a628f29fd20 ...
+[Proxy Recording  (5c6c:22d8)] Trying to connect to https://www.advantageonlineshopping.com:443/catalog/api/v1/categories ...
+[Proxy Recording  (5c6c:22d8)] Trying to connect to https://www.advantageonlineshopping.com:443/catalog/api/v1/categories ...
+[Proxy Recording  (5c6c:2fdc)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/fd633db8-a56b-4b85-978a-5a628f29fd20
+[Network Analyzer (5c6c:2fdc)]   (Sid: 28) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:2fdc)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/fd633db8-a56b-4b85-978a-5a628f29fd20"   
+[Network Analyzer (5c6c:2fdc)]   (Sid: 28) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2fdc)]   (Sid: 28) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:2fdc)]   (Sid: 28) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:2fdc)] Sent 20 bytes to client @ 127.0.0.1:48294
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48296
+[Proxy Recording  (5c6c:53b4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/54b4c682-0e20-484a-8f67-16259aa45092 ...
+[Proxy Recording.Error (5c6c:53b4)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:53b4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/54b4c682-0e20-484a-8f67-16259aa45092 ...
+[Proxy Recording  (5c6c:22d8)] Received response of 400 header and 4959 body bytes from https://www.advantageonlineshopping.com:443/catalog/api/v1/categories
+[Web Request      (5c6c:22d8)] "GET https://www.advantageonlineshopping.com/catalog/api/v1/categories"   
+[Network Analyzer (5c6c:22d8)]   (Sid: 29) Client -> Server @ : 1038 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:22d8)]   (Sid: 29) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:22d8)]   (Sid: 29) Server -> Client : 4959 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:22d8)] Sent 4959 bytes to client @ 127.0.0.1:48292
+[Proxy Recording  (5c6c:53b4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/54b4c682-0e20-484a-8f67-16259aa45092
+[Network Analyzer (5c6c:53b4)]   (Sid: 30) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:53b4)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/54b4c682-0e20-484a-8f67-16259aa45092"   
+[Network Analyzer (5c6c:53b4)]   (Sid: 30) Client -> Server @ : 721 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:53b4)]   (Sid: 30) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:53b4)]   (Sid: 30) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:53b4)] Sent 20 bytes to client @ 127.0.0.1:48296
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48299
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/7e386f4e-6139-4518-896c-ab6a1299e9f4 ...
+[Proxy Recording.Error (5c6c:30b4)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/7e386f4e-6139-4518-896c-ab6a1299e9f4 ...
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48301
+[Proxy Recording  (5c6c:30b4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/7e386f4e-6139-4518-896c-ab6a1299e9f4
+[Network Analyzer (5c6c:30b4)]   (Sid: 31) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:30b4)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/7e386f4e-6139-4518-896c-ab6a1299e9f4"   
+[Network Analyzer (5c6c:30b4)]   (Sid: 31) Client -> Server @ : 726 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 31) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 31) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30b4)] Sent 20 bytes to client @ 127.0.0.1:48299
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48303
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/1f583e41-eaf9-4fa9-bc8d-0b19c43e82d0 ...
+[Proxy Recording.Error (5c6c:5fc8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/1f583e41-eaf9-4fa9-bc8d-0b19c43e82d0 ...
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://www.advantageonlineshopping.com:443/catalog/api/v1/deals/search?dealOfTheDay=true ...
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://www.advantageonlineshopping.com:443/catalog/api/v1/deals/search?dealOfTheDay=true ...
+[Proxy Recording  (5c6c:5fc8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/1f583e41-eaf9-4fa9-bc8d-0b19c43e82d0
+[Network Analyzer (5c6c:5fc8)]   (Sid: 32) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5fc8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/1f583e41-eaf9-4fa9-bc8d-0b19c43e82d0"   
+[Network Analyzer (5c6c:5fc8)]   (Sid: 32) Client -> Server @ : 897 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 32) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 32) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5fc8)] Sent 20 bytes to client @ 127.0.0.1:48303
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48305
+[Proxy Recording  (5c6c:2fdc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/095b142a-2110-4161-a7a9-1dc5fef7d5f7 ...
+[Proxy Recording.Error (5c6c:2fdc)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:2fdc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/095b142a-2110-4161-a7a9-1dc5fef7d5f7 ...
+[Proxy Recording  (5c6c:58dc)] Received response of 400 header and 351 body bytes from https://www.advantageonlineshopping.com:443/catalog/api/v1/deals/search?dealOfTheDay=true
+[Web Request      (5c6c:58dc)] "GET https://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true"   
+[Network Analyzer (5c6c:58dc)]   (Sid: 33) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid: 33) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid: 33) Server -> Client : 351 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:58dc)] Sent 351 bytes to client @ 127.0.0.1:48301
+[Proxy Recording  (5c6c:2fdc)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/095b142a-2110-4161-a7a9-1dc5fef7d5f7
+[Network Analyzer (5c6c:2fdc)]   (Sid: 34) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:2fdc)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/095b142a-2110-4161-a7a9-1dc5fef7d5f7"   
+[Network Analyzer (5c6c:2fdc)]   (Sid: 34) Client -> Server @ : 1895 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2fdc)]   (Sid: 34) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:2fdc)]   (Sid: 34) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:2fdc)] Sent 20 bytes to client @ 127.0.0.1:48305
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48307
+[Proxy Recording  (5c6c:3a64)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/ca531e00-e2a8-4857-8f6e-f00886e7f9de ...
+[Proxy Recording.Error (5c6c:3a64)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:3a64)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/ca531e00-e2a8-4857-8f6e-f00886e7f9de ...
+[Proxy Recording  (5c6c:3a64)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/ca531e00-e2a8-4857-8f6e-f00886e7f9de
+[Network Analyzer (5c6c:3a64)]   (Sid: 35) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:3a64)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/ca531e00-e2a8-4857-8f6e-f00886e7f9de"   
+[Network Analyzer (5c6c:3a64)]   (Sid: 35) Client -> Server @ : 398 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:3a64)]   (Sid: 35) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:3a64)]   (Sid: 35) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:3a64)] Sent 20 bytes to client @ 127.0.0.1:48307
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48309
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48310
+[Proxy Recording  (5c6c:6fbc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/3e29116b-e67e-4b5e-b9d8-e379647d4203 ...
+[Proxy Recording.Error (5c6c:6fbc)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6fbc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/3e29116b-e67e-4b5e-b9d8-e379647d4203 ...
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://www.advantageonlineshopping.com:443/app/tempFiles/popularProducts.json ...
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://www.advantageonlineshopping.com:443/app/tempFiles/popularProducts.json ...
+[Proxy Recording  (5c6c:6fbc)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/3e29116b-e67e-4b5e-b9d8-e379647d4203
+[Network Analyzer (5c6c:6fbc)]   (Sid: 36) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6fbc)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/3e29116b-e67e-4b5e-b9d8-e379647d4203"   
+[Network Analyzer (5c6c:6fbc)]   (Sid: 36) Client -> Server @ : 715 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6fbc)]   (Sid: 36) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6fbc)]   (Sid: 36) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6fbc)] Sent 20 bytes to client @ 127.0.0.1:48309
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48313
+[Proxy Recording  (5c6c:30b4)] Received response of 438 header and 500 body bytes from https://www.advantageonlineshopping.com:443/app/tempFiles/popularProducts.json
+[Web Request      (5c6c:30b4)] "GET https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json"   
+[Network Analyzer (5c6c:30b4)]   (Sid: 37) Client -> Server @ : 1047 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 37) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 37) Server -> Client : 500 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30b4)] Sent 500 bytes to client @ 127.0.0.1:48310
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48315
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/8bf299c3-819c-4387-ba26-882131869050 ...
+[Proxy Recording.Error (5c6c:5fc8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/8bf299c3-819c-4387-ba26-882131869050 ...
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://www.advantageonlineshopping.com:443/app/views/home-page.html ...
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://www.advantageonlineshopping.com:443/app/views/home-page.html ...
+[Proxy Recording  (5c6c:5fc8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/8bf299c3-819c-4387-ba26-882131869050
+[Network Analyzer (5c6c:5fc8)]   (Sid: 38) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5fc8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/8bf299c3-819c-4387-ba26-882131869050"   
+[Network Analyzer (5c6c:5fc8)]   (Sid: 38) Client -> Server @ : 714 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 38) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 38) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5fc8)] Sent 20 bytes to client @ 127.0.0.1:48313
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48318
+[Proxy Recording  (5c6c:22d8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/a4aa2557-7b9b-4067-9206-b18d0b4e3428 ...
+[Proxy Recording.Error (5c6c:22d8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:22d8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/a4aa2557-7b9b-4067-9206-b18d0b4e3428 ...
+[Proxy Recording  (5c6c:58dc)] Received response of 432 header and 2243 body bytes from https://www.advantageonlineshopping.com:443/app/views/home-page.html
+[Web Request      (5c6c:58dc)] "GET https://www.advantageonlineshopping.com/app/views/home-page.html"   
+[Network Analyzer (5c6c:58dc)]   (Sid: 39) Client -> Server @ : 1013 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid: 39) Server -> Client : 419 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid: 39) Server -> Client : 2243 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:58dc)] Sent 2243 bytes to client @ 127.0.0.1:48315
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48320
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48322
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48323
+[Proxy Recording.Error (5c6c:3cb8)] Exception is caught while trying to connect to https://www.advantageonlineshopping.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (5c6c:3cb8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48324
+[Proxy Recording  (5c6c:6484)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACI~&jid=39087137&gjid=1577180435&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=615101980 ...
+[Proxy Recording  (5c6c:6484)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACI~&jid=39087137&gjid=1577180435&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=615101980 ...
+[Proxy Recording  (5c6c:6484)] Received response of 500 header and 1 body bytes from https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACI~&jid=39087137&gjid=1577180435&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=615101980
+[Web Request      (5c6c:6484)] "POST https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACI~&jid=39087137&gjid=1577180435&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=615101980"   
+[Network Analyzer (5c6c:6484)]   (Sid: 40) Client -> Server @ : 806 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6484)]   (Sid: 40) Server -> Client : 517 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6484)]   (Sid: 40) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6484)] Sent 1 bytes to client @ 127.0.0.1:48320
+[Proxy Recording  (5c6c:22d8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/a4aa2557-7b9b-4067-9206-b18d0b4e3428
+[Network Analyzer (5c6c:22d8)]   (Sid: 41) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:22d8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/a4aa2557-7b9b-4067-9206-b18d0b4e3428"   
+[Network Analyzer (5c6c:22d8)]   (Sid: 41) Client -> Server @ : 893 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:22d8)]   (Sid: 41) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:22d8)]   (Sid: 41) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:22d8)] Sent 20 bytes to client @ 127.0.0.1:48318
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48327
+[Proxy Recording  (5c6c:2fdc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a4506709-fcd0-42af-909e-782854678d5d ...
+[Proxy Recording.Error (5c6c:2fdc)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:2fdc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a4506709-fcd0-42af-909e-782854678d5d ...
+[Proxy Recording  (5c6c:34cc)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff ...
+[Proxy Recording  (5c6c:34cc)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff ...
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff ...
+[Proxy Recording  (5c6c:30b4)] Trying to connect to https://www.advantageonlineshopping.com:443/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff ...
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48329
+[Proxy Recording  (5c6c:34cc)] Received response of 198 header and 0 body bytes from https://www.advantageonlineshopping.com:443/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff
+[Web Request      (5c6c:34cc)] "GET https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff"   
+[Proxy Recording  (5c6c:30b4)] Received response of 198 header and 0 body bytes from https://www.advantageonlineshopping.com:443/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff
+[Network Analyzer (5c6c:34cc)]   (Sid: 42) Client -> Server @ : 1201 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:34cc)]   (Sid: 42) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:34cc)] Sent 0 bytes to client @ 127.0.0.1:48323
+[Web Request      (5c6c:30b4)] "GET https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff"   
+[Network Analyzer (5c6c:30b4)]   (Sid: 43) Client -> Server @ : 1201 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30b4)]   (Sid: 43) Server -> Client : 213 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30b4)] Sent 0 bytes to client @ 127.0.0.1:48324
+[Proxy Recording  (5c6c:2fdc)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a4506709-fcd0-42af-909e-782854678d5d
+[Network Analyzer (5c6c:2fdc)]   (Sid: 44) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:2fdc)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/a4506709-fcd0-42af-909e-782854678d5d"   
+[Network Analyzer (5c6c:2fdc)]   (Sid: 44) Client -> Server @ : 1890 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2fdc)]   (Sid: 44) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:2fdc)]   (Sid: 44) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:2fdc)] Sent 20 bytes to client @ 127.0.0.1:48327
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://api.browser.yandex.ru:443/uma_proto ...
+[Proxy Recording  (5c6c:58dc)] Trying to connect to https://api.browser.yandex.ru:443/uma_proto ...
+[Proxy Recording  (5c6c:58dc)] Received response of 605 header and 0 body bytes from https://api.browser.yandex.ru:443/uma_proto
+[Web Request      (5c6c:58dc)] "POST https://api.browser.yandex.ru/uma_proto"
+[Network Analyzer (5c6c:58dc)]   (Sid: 45) Client -> Server @ : 971 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid: 45) Client -> Server @ : 90993 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:58dc)]   (Sid: 45) Server -> Client : 622 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:58dc)] Sent 0 bytes to client @ 192.168.0.100:48329
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48333
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48335
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48337
+[Proxy Recording.Error (5c6c:4cb8)] Exception is caught while trying to connect to https://edge.skype.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (5c6c:4cb8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (5c6c:5ca0)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=9658&tfd=35979 ...
+[Proxy Recording  (5c6c:5ca0)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=9658&tfd=35979 ...
+[Proxy Recording  (5c6c:5fc8)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (5c6c:5ca0)] Received response of 421 header and 0 body bytes from https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=9658&tfd=35979
+[Web Request      (5c6c:5ca0)] "POST https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=2&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=9658&tfd=35979"   
+[Network Analyzer (5c6c:5ca0)]   (Sid: 46) Client -> Server @ : 776 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5ca0)]   (Sid: 46) Server -> Client : 446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5ca0)] Sent 0 bytes to client @ 127.0.0.1:48335
+[Web Request      (5c6c:5fc8)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (5c6c:5fc8)]   (Sid: 47) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5fc8)]   (Sid: 47) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent open_login [Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48343
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (5c6c:6798)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (5c6c:6798)]   (Sid: 48) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 48) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48346
+[Proxy Recording  (5c6c:5e18)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (5c6c:5e18)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (5c6c:5e18)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Web Request      (5c6c:5e18)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (5c6c:5e18)]   (Sid: 49) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 49) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 49) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (5c6c:5e18)] Sent 90 bytes to client @ 127.0.0.1:48346
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48347
+[Proxy Recording  (5c6c:6798)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (5c6c:6798)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (5c6c:6798)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (5c6c:6798)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (5c6c:6798)]   (Sid: 50) Client -> Server @ : 312 bytes (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 50) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 50) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 8 bytes to client @ 127.0.0.1:48347
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48350
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/2bc3eb34-d628-4a85-a5f7-26aa7bc9f5a5 ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/2bc3eb34-d628-4a85-a5f7-26aa7bc9f5a5 ...
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/2bc3eb34-d628-4a85-a5f7-26aa7bc9f5a5
+[Network Analyzer (5c6c:1070)]   (Sid: 51) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/2bc3eb34-d628-4a85-a5f7-26aa7bc9f5a5"   
+[Network Analyzer (5c6c:1070)]   (Sid: 51) Client -> Server @ : 870 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 51) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 51) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:48350
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48353
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/70941941-a7f9-4d74-92d6-e4d932300ae3 ...
+[Proxy Recording.Error (5c6c:6798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/70941941-a7f9-4d74-92d6-e4d932300ae3 ...
+[Proxy Recording  (5c6c:6798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/70941941-a7f9-4d74-92d6-e4d932300ae3
+[Network Analyzer (5c6c:6798)]   (Sid: 52) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/70941941-a7f9-4d74-92d6-e4d932300ae3"   
+[Network Analyzer (5c6c:6798)]   (Sid: 52) Client -> Server @ : 886 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 52) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 52) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 20 bytes to client @ 127.0.0.1:48353
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48355
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/99c78908-ebf0-4751-a983-008d10dacd5b ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/99c78908-ebf0-4751-a983-008d10dacd5b ...
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/99c78908-ebf0-4751-a983-008d10dacd5b
+[Network Analyzer (5c6c:1070)]   (Sid: 53) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/99c78908-ebf0-4751-a983-008d10dacd5b"   
+[Network Analyzer (5c6c:1070)]   (Sid: 53) Client -> Server @ : 1874 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 53) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 53) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:48355
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48357
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/1e2c644a-ad58-4670-95ea-06fb3ea60b99 ...
+[Proxy Recording.Error (5c6c:5e18)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/1e2c644a-ad58-4670-95ea-06fb3ea60b99 ...
+[Proxy Recording  (5c6c:5e18)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/1e2c644a-ad58-4670-95ea-06fb3ea60b99
+[Network Analyzer (5c6c:5e18)]   (Sid: 54) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5e18)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/1e2c644a-ad58-4670-95ea-06fb3ea60b99"   
+[Network Analyzer (5c6c:5e18)]   (Sid: 54) Client -> Server @ : 874 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 54) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 54) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5e18)] Sent 20 bytes to client @ 127.0.0.1:48357
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48359
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/04bbfd25-f36e-4573-9528-25a143f69767 ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/04bbfd25-f36e-4573-9528-25a143f69767 ...
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48361
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/04bbfd25-f36e-4573-9528-25a143f69767
+[Network Analyzer (5c6c:1070)]   (Sid: 55) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/04bbfd25-f36e-4573-9528-25a143f69767"   
+[Network Analyzer (5c6c:1070)]   (Sid: 55) Client -> Server @ : 405 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 55) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 55) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:48359
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48363
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/69c2c455-8f56-4d58-93cd-0b971c8f43a3 ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/69c2c455-8f56-4d58-93cd-0b971c8f43a3 ...
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://www.advantageonlineshopping.com:443/css/images/FacebookLogo.png ...
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://www.advantageonlineshopping.com:443/css/images/FacebookLogo.png ...
+[Proxy Recording  (5c6c:6798)] Received response of 383 header and 1029 body bytes from https://www.advantageonlineshopping.com:443/css/images/FacebookLogo.png
+[Web Request      (5c6c:6798)] "GET https://www.advantageonlineshopping.com/css/images/FacebookLogo.png"   
+[Network Analyzer (5c6c:6798)]   (Sid: 56) Client -> Server @ : 1051 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 56) Server -> Client : 398 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/69c2c455-8f56-4d58-93cd-0b971c8f43a3
+[Network Analyzer (5c6c:6798)]   (Sid: 56) Server -> Client : 1029 bytes (SSL) (Service=HTTP)
+[Proxy Recording.Error (5c6c:6798)] Exception is caught while sending data to https://www.advantageonlineshopping.com:443/css/images/FacebookLogo.png, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Network Analyzer (5c6c:1070)]   (Sid: 57) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/69c2c455-8f56-4d58-93cd-0b971c8f43a3"   
+[Network Analyzer (5c6c:1070)]   (Sid: 57) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 57) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 57) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:48363
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48367
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/90786af5-c42e-484b-ab53-de8cd3390665 ...
+[Proxy Recording.Error (5c6c:6798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/90786af5-c42e-484b-ab53-de8cd3390665 ...
+[Proxy Recording  (5c6c:6798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/90786af5-c42e-484b-ab53-de8cd3390665
+[Network Analyzer (5c6c:6798)]   (Sid: 58) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/90786af5-c42e-484b-ab53-de8cd3390665"   
+[Network Analyzer (5c6c:6798)]   (Sid: 58) Client -> Server @ : 757 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 58) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 58) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 20 bytes to client @ 127.0.0.1:48367
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48369
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/527eb0ca-70e7-41da-b6f9-5b225e6ed79e ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/527eb0ca-70e7-41da-b6f9-5b225e6ed79e ...
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/527eb0ca-70e7-41da-b6f9-5b225e6ed79e
+[Network Analyzer (5c6c:1070)]   (Sid: 59) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/527eb0ca-70e7-41da-b6f9-5b225e6ed79e"   
+[Network Analyzer (5c6c:1070)]   (Sid: 59) Client -> Server @ : 720 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 59) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 59) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:48369
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48371
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/2fecc25d-1e4e-4d28-91ea-e3b723e92f36 ...
+[Proxy Recording.Error (5c6c:6798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/2fecc25d-1e4e-4d28-91ea-e3b723e92f36 ...
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48373
+[Proxy Recording  (5c6c:6798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/2fecc25d-1e4e-4d28-91ea-e3b723e92f36
+[Network Analyzer (5c6c:6798)]   (Sid: 60) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/2fecc25d-1e4e-4d28-91ea-e3b723e92f36"   
+[Network Analyzer (5c6c:6798)]   (Sid: 60) Client -> Server @ : 893 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 60) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 60) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 20 bytes to client @ 127.0.0.1:48371
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48374
+[Proxy Recording.Error (5c6c:5e18)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/22789cb6-7612-4b9e-a4c2-bd4b257c7ce7 ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/22789cb6-7612-4b9e-a4c2-bd4b257c7ce7 ...
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/22789cb6-7612-4b9e-a4c2-bd4b257c7ce7
+[Network Analyzer (5c6c:1070)]   (Sid: 61) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/22789cb6-7612-4b9e-a4c2-bd4b257c7ce7"   
+[Network Analyzer (5c6c:1070)]   (Sid: 61) Client -> Server @ : 1886 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 61) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 61) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:48374
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48376
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/8ce8ba5e-473a-40e2-9ec6-e2644329f7fe ...
+[Proxy Recording.Error (5c6c:6798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/8ce8ba5e-473a-40e2-9ec6-e2644329f7fe ...
+[User action                 ] EndTransactionEvent open_login [Proxy Recording  (5c6c:6798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/8ce8ba5e-473a-40e2-9ec6-e2644329f7fe
+[Network Analyzer (5c6c:6798)]   (Sid: 62) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/8ce8ba5e-473a-40e2-9ec6-e2644329f7fe"   
+[Network Analyzer (5c6c:6798)]   (Sid: 62) Client -> Server @ : 867 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 62) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 62) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 20 bytes to client @ 127.0.0.1:48376
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48378
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/6f92832c-a007-429b-9b7c-c95993f4c8b8 ...
+[Proxy Recording.Error (5c6c:6798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/6f92832c-a007-429b-9b7c-c95993f4c8b8 ...
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48380
+[Proxy Recording.Error (5c6c:5e18)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (5c6c:6798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/6f92832c-a007-429b-9b7c-c95993f4c8b8
+[Network Analyzer (5c6c:6798)]   (Sid: 63) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/6f92832c-a007-429b-9b7c-c95993f4c8b8"   
+[Network Analyzer (5c6c:6798)]   (Sid: 63) Client -> Server @ : 398 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 63) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 63) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 20 bytes to client @ 127.0.0.1:48378
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48381
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/6ef1735f-5e34-473a-943b-0943b3ce9870 ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/6ef1735f-5e34-473a-943b-0943b3ce9870 ...
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/6ef1735f-5e34-473a-943b-0943b3ce9870
+[Network Analyzer (5c6c:1070)]   (Sid: 64) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/6ef1735f-5e34-473a-943b-0943b3ce9870"   
+[Network Analyzer (5c6c:1070)]   (Sid: 64) Client -> Server @ : 471 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 64) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 64) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:48381
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48383
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/c5f8a791-89a2-4ab6-8b21-67f6568eaaf5 ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/c5f8a791-89a2-4ab6-8b21-67f6568eaaf5 ...
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/c5f8a791-89a2-4ab6-8b21-67f6568eaaf5
+[Network Analyzer (5c6c:1070)]   (Sid: 65) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/c5f8a791-89a2-4ab6-8b21-67f6568eaaf5"   
+[Network Analyzer (5c6c:1070)]   (Sid: 65) Client -> Server @ : 755 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 65) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 65) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:48383
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48385
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/d3205091-3dd6-4cb5-9f89-4cdcd10e86d8 ...
+[Proxy Recording.Error (5c6c:6798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/d3205091-3dd6-4cb5-9f89-4cdcd10e86d8 ...
+[Proxy Recording  (5c6c:6798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/d3205091-3dd6-4cb5-9f89-4cdcd10e86d8
+[Network Analyzer (5c6c:6798)]   (Sid: 66) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/d3205091-3dd6-4cb5-9f89-4cdcd10e86d8"   
+[Network Analyzer (5c6c:6798)]   (Sid: 66) Client -> Server @ : 719 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 66) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 66) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 20 bytes to client @ 127.0.0.1:48385
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48388
+[Proxy Recording.Error (5c6c:1070)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[User action                 ] StartTransactionEvent open_register [Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48390
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://www.advantageonlineshopping.com:443/app/user/views/register-page.html ...
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://www.advantageonlineshopping.com:443/app/user/views/register-page.html ...
+[Proxy Recording  (5c6c:5e18)] Received response of 431 header and 1469 body bytes from https://www.advantageonlineshopping.com:443/app/user/views/register-page.html
+[Web Request      (5c6c:5e18)] "GET https://www.advantageonlineshopping.com/app/user/views/register-page.html"   
+[Network Analyzer (5c6c:5e18)]   (Sid: 67) Client -> Server @ : 1022 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 67) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 67) Server -> Client : 1469 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5e18)] Sent 1469 bytes to client @ 127.0.0.1:48390
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48392
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48393
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48394
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48396
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48400
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48401
+[Proxy Recording.Error (5c6c:5c58)] Exception is caught while connecting to , message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (5c6c:2214)] Exception is caught while connecting to , message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=594710829 ...
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=594710829 ...
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=ABgI&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=registration&_c=1&_et=1&epn.value=0&tfd=76897 ...
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=ABgI&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=registration&_c=1&_et=1&epn.value=0&tfd=76897 ...
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EhAI&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=21969&tfd=76897 ...
+[Proxy Recording  (5c6c:6798)] Received response of 433 header and 35 body bytes from https://www.google-analytics.com:443/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=594710829
+[Proxy Recording  (5c6c:1070)] Received response of 421 header and 0 body bytes from https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=ABgI&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=registration&_c=1&_et=1&epn.value=0&tfd=76897
+[Web Request      (5c6c:6798)] "GET https://www.google-analytics.com/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=594710829"   
+[Network Analyzer (5c6c:6798)]   (Sid: 68) Client -> Server @ : 721 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 68) Server -> Client : 450 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 68) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 35 bytes to client @ 127.0.0.1:48392
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EhAI&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=21969&tfd=76897 ...
+[Web Request      (5c6c:1070)] "POST https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=ABgI&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=registration&_c=1&_et=1&epn.value=0&tfd=76897"   
+[Network Analyzer (5c6c:1070)]   (Sid: 69) Client -> Server @ : 795 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 69) Server -> Client : 446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 0 bytes to client @ 127.0.0.1:48394
+[Proxy Recording  (5c6c:5e18)] Received response of 421 header and 0 body bytes from https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EhAI&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=21969&tfd=76897
+[Web Request      (5c6c:5e18)] "POST https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EhAI&_s=3&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fregister&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=page_view&_ee=1&_et=21969&tfd=76897"   
+[Network Analyzer (5c6c:5e18)]   (Sid: 70) Client -> Server @ : 785 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 70) Server -> Client : 446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5e18)] Sent 0 bytes to client @ 127.0.0.1:48393
+[Proxy Recording  (5c6c:3958)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/GetCountriesRequest ...
+[Proxy Recording  (5c6c:3958)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/GetCountriesRequest ...
+[Proxy Recording  (5c6c:3958)] Received response of 786 header and 4184 body bytes from https://www.advantageonlineshopping.com:443/accountservice/ws/GetCountriesRequest
+[Network Analyzer (5c6c:3958)]   (Sid: 71) Client -> Server @ : 1272 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:3958)] "POST https://www.advantageonlineshopping.com/accountservice/ws/GetCountriesRequest"   
+[Network Analyzer (5c6c:3958)]   (Sid: 71) Client -> Server @ : 339 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:3958)]   (Sid: 71) Server -> Client : 773 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:3958)]   (Sid: 71) Server -> Client : 4184 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:3958)] Sent 4184 bytes to client @ 127.0.0.1:48396
+[User action                 ] EndTransactionEvent open_register [Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48403
+[Proxy Recording.Error (5c6c:60e8)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48405
+[Proxy Recording.Error (5c6c:5e18)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[User action                 ] StartTransactionEvent fiilll [Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48406
+[Proxy Recording.Error (5c6c:6798)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48407
+[Proxy Recording.Error (5c6c:5c58)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48408
+[Proxy Recording  (5c6c:5e18)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt?n=1710270746941 ...
+[Proxy Recording  (5c6c:5e18)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt?n=1710270746941 ...
+[Proxy Recording  (5c6c:5e18)] Received response of 153 header and 22 body bytes from http://www.msftconnecttest.com/connecttest.txt?n=1710270746941
+[Web Request      (5c6c:5e18)] "GET http://www.msftconnecttest.com/connecttest.txt?n=1710270746941"   
+[Network Analyzer (5c6c:5e18)]   (Sid: 72) Client -> Server @ : 449 bytes (Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 72) Server -> Client : 170 bytes  (Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 72) Server -> Client : 22 bytes  (Service=HTTP)
+[Proxy Recording  (5c6c:5e18)] Sent 22 bytes to client @ 192.168.0.100:48408
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:48414
+[Proxy Recording.Error (5c6c:6798)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:48416
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (5c6c:5e18)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (5c6c:5e18)]   (Sid: 73) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 73) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:29331
+[Proxy Recording  (5c6c:60e8)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:29333
+[Proxy Recording  (5c6c:60e8)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (5c6c:3958)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (5c6c:3958)] Trying to connect to http://www.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (5c6c:60e8)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (5c6c:3958)] Received response of 153 header and 22 body bytes from http://www.msftconnecttest.com/connecttest.txt
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:29334
+[Proxy Recording  (5c6c:1070)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:29335
+[Proxy Recording  (5c6c:1070)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording  (5c6c:5c58)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (5c6c:1070)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (5c6c:5c58)] Trying to connect to http://ipv6.msftconnecttest.com/connecttest.txt ...
+[Proxy Recording.Error (5c6c:5c58)] Failed to connect to server http://ipv6.msftconnecttest.com/connecttest.txt.
+Message=NameResolutionFailure, status=Невозможно разрешить удаленное имя: 'ipv6.msftconnecttest.com'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Web Request      (5c6c:3958)] "GET http://www.msftconnecttest.com/connecttest.txt"   
+[Network Analyzer (5c6c:3958)]   (Sid: 74) Client -> Server @ : 122 bytes (Service=HTTP)
+[Network Analyzer (5c6c:3958)]   (Sid: 74) Server -> Client : 170 bytes  (Service=HTTP)
+[Network Analyzer (5c6c:3958)]   (Sid: 74) Server -> Client : 22 bytes  (Service=HTTP)
+[Proxy Recording  (5c6c:3958)] Sent 22 bytes to client @ 192.168.0.100:29333
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:29336
+[Proxy Recording.Error (5c6c:60e8)] Exception is caught while trying to connect to https://sba.yandex.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:29338
+[Proxy Recording.Error (5c6c:60e8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (5c6c:2214)] Trying to connect to https://sba.yandex.net:443/v4/threatListUpdates:fetch?$req=ChkKB2Jyb21pdW0SDjEyMC4wLjYwOTkuODA5GugDCOgHEAYa2AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NTk1NzM1MzU0YzZlNTI2ZjYzNmQ1NjY4NjQ0MzQ5NzM0OTQzNGE2YTYxNDc1NjZhNjEzMzRlMzE2MjUzNDkzNjQ5NDM0OTc4NjM0NTZiNzk2NDQ0NTY0NjUxNTQ0NjU1NTk1NjZjNDM1YTQ1NzQ1MTY0MzAzNTRjNjQzMDMxNDk1NDQ4NTI3NjU5NmI1MjMxNjI1NDUyMzU2NDQ0Njg2OTY0NTQ0MjU4NjIzMjUyNmI2NTQ0NGE3YTUwNTM0YTM5IgQgASACKAEa_wMICBABGvADNjU3OTRhN2E2NDQ3NDYzMDVhNTYzOTMyNWE1ODRhN2E2MTU3Mzk3NTQ5NmE2ZjY3NDk2YTQxNzU0ZDUzNDk3MzQ5NDM0YTczNTk1ODRlMzA1ODMyNTIzMTYyNTg0MjY2NjE1NzUxNjk0ZjY5NDE3OTRlNmE2NzMxNGQ1Mzc3Njc0OTZkNzg2ODYzMzM1MjY2NjM0NzQ2Nzk2NDQ3NmMzMDYxNTczOTc1NTgzMjZjNmI0OTZhNmY2NzRjNTQ0NTczNDk0MzRhNmQ2NDU3Nzg3MzU4MzI1MjMxNjI1ODQxNjk0ZjY5NDIzMDYzNmU1NjZjNGM0MzQxNjk2MjQ3NmM3YTY0NDczNTY4NjI1NzU1Njk0ZjY5NDE2OTY0MzI2ODcwNjQ0NzU1NzU1OTMzNGU2YjU4MzM2NDZmNjE1ODUyNmM2MjQ3NmM3YTY0NDM0OTczNDk0MzRhNmE2MTQ3NTY2YTYxMzM0ZTMxNjI1MzQ5MzY0OTQzNGE0MjUyMzA0YTZkNjI0NTU2NTQ1NzZjNGU1OTY1NmQzNDM0NjQ0NzMwNzg2MTU3NmM0NTRlMzAzODM0NGY0MzM5NzE2MzU3NzQ3MTRlMzI0NjZjNTQ2ZTVhNGY1MzMxNTEzNDVhNDU0OTc3NTk2YjZjNGU1MDUzNGEzOSIEIAEgAigBGvgDCOgHEAYa6AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjE0NzQ2N2E2MTQzMzU2OTU5NTc1MjZhNjM2ZTY4NzA1YTQ4NGQ2OTRjNDM0MTY5NTkzMjY4NmM1OTMyNzQ3YTY0NTczMDY5NGY2OTQxNjk2MzQ1MzQzMDU5NTY0ZTdhNTk1NjRlNTg1MzU1NWE3MDUzNmI1MjZiNTIzMzY4NzA2MjMwNzg0MjYzNTg2YzQ1NTY1NjZmMzI2MzQ2NDUzMDUzNDc0YTZmNWE0NDUyNTE0ZDZiMzg3OTY1NmU1YTcyNjM3YTMwNjk2NjUxM2QzZCIEIAEgAigEGogECOkHEAYa-AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjQ0NzY4Nzk1YTU3NDYzMDU4MzM1MjM1NjM0NzU2NjY2NDU4NGE3MzU4MzI2Yzc1NWE2ZDM4Njk0YzQzNDE2OTU5MzI2ODZjNTkzMjc0N2E2NDU3MzA2OTRmNjk0MTY5NTU1NjY4NmE1MjMwNzA2MTU5NTg0NjZiNjQ0NzY0MzI1YTQ1NTY3ODYzMzI3NDRhNTkzMTY4NzI1OTU1MzU0NzUyNDU1YTQzNjU1NTc0NGQ1MjU3NTY1NDY0NDY0NTMyNGQ1NjU2NmE1NTZlNDY1ODYzN2EzMDY5NjY1MTNkM2QiBCABIAIoASICCAM=&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885 ...
+[Proxy Recording  (5c6c:2214)] Trying to connect to https://sba.yandex.net:443/v4/threatListUpdates:fetch?$req=ChkKB2Jyb21pdW0SDjEyMC4wLjYwOTkuODA5GugDCOgHEAYa2AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NTk1NzM1MzU0YzZlNTI2ZjYzNmQ1NjY4NjQ0MzQ5NzM0OTQzNGE2YTYxNDc1NjZhNjEzMzRlMzE2MjUzNDkzNjQ5NDM0OTc4NjM0NTZiNzk2NDQ0NTY0NjUxNTQ0NjU1NTk1NjZjNDM1YTQ1NzQ1MTY0MzAzNTRjNjQzMDMxNDk1NDQ4NTI3NjU5NmI1MjMxNjI1NDUyMzU2NDQ0Njg2OTY0NTQ0MjU4NjIzMjUyNmI2NTQ0NGE3YTUwNTM0YTM5IgQgASACKAEa_wMICBABGvADNjU3OTRhN2E2NDQ3NDYzMDVhNTYzOTMyNWE1ODRhN2E2MTU3Mzk3NTQ5NmE2ZjY3NDk2YTQxNzU0ZDUzNDk3MzQ5NDM0YTczNTk1ODRlMzA1ODMyNTIzMTYyNTg0MjY2NjE1NzUxNjk0ZjY5NDE3OTRlNmE2NzMxNGQ1Mzc3Njc0OTZkNzg2ODYzMzM1MjY2NjM0NzQ2Nzk2NDQ3NmMzMDYxNTczOTc1NTgzMjZjNmI0OTZhNmY2NzRjNTQ0NTczNDk0MzRhNmQ2NDU3Nzg3MzU4MzI1MjMxNjI1ODQxNjk0ZjY5NDIzMDYzNmU1NjZjNGM0MzQxNjk2MjQ3NmM3YTY0NDczNTY4NjI1NzU1Njk0ZjY5NDE2OTY0MzI2ODcwNjQ0NzU1NzU1OTMzNGU2YjU4MzM2NDZmNjE1ODUyNmM2MjQ3NmM3YTY0NDM0OTczNDk0MzRhNmE2MTQ3NTY2YTYxMzM0ZTMxNjI1MzQ5MzY0OTQzNGE0MjUyMzA0YTZkNjI0NTU2NTQ1NzZjNGU1OTY1NmQzNDM0NjQ0NzMwNzg2MTU3NmM0NTRlMzAzODM0NGY0MzM5NzE2MzU3NzQ3MTRlMzI0NjZjNTQ2ZTVhNGY1MzMxNTEzNDVhNDU0OTc3NTk2YjZjNGU1MDUzNGEzOSIEIAEgAigBGvgDCOgHEAYa6AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjE0NzQ2N2E2MTQzMzU2OTU5NTc1MjZhNjM2ZTY4NzA1YTQ4NGQ2OTRjNDM0MTY5NTkzMjY4NmM1OTMyNzQ3YTY0NTczMDY5NGY2OTQxNjk2MzQ1MzQzMDU5NTY0ZTdhNTk1NjRlNTg1MzU1NWE3MDUzNmI1MjZiNTIzMzY4NzA2MjMwNzg0MjYzNTg2YzQ1NTY1NjZmMzI2MzQ2NDUzMDUzNDc0YTZmNWE0NDUyNTE0ZDZiMzg3OTY1NmU1YTcyNjM3YTMwNjk2NjUxM2QzZCIEIAEgAigEGogECOkHEAYa-AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjQ0NzY4Nzk1YTU3NDYzMDU4MzM1MjM1NjM0NzU2NjY2NDU4NGE3MzU4MzI2Yzc1NWE2ZDM4Njk0YzQzNDE2OTU5MzI2ODZjNTkzMjc0N2E2NDU3MzA2OTRmNjk0MTY5NTU1NjY4NmE1MjMwNzA2MTU5NTg0NjZiNjQ0NzY0MzI1YTQ1NTY3ODYzMzI3NDRhNTkzMTY4NzI1OTU1MzU0NzUyNDU1YTQzNjU1NTc0NGQ1MjU3NTY1NDY0NDY0NTMyNGQ1NjU2NmE1NTZlNDY1ODYzN2EzMDY5NjY1MTNkM2QiBCABIAIoASICCAM=&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885 ...
+[Proxy Recording  (5c6c:2214)] Received response of 257 header and 2168 body bytes from https://sba.yandex.net:443/v4/threatListUpdates:fetch?$req=ChkKB2Jyb21pdW0SDjEyMC4wLjYwOTkuODA5GugDCOgHEAYa2AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NTk1NzM1MzU0YzZlNTI2ZjYzNmQ1NjY4NjQ0MzQ5NzM0OTQzNGE2YTYxNDc1NjZhNjEzMzRlMzE2MjUzNDkzNjQ5NDM0OTc4NjM0NTZiNzk2NDQ0NTY0NjUxNTQ0NjU1NTk1NjZjNDM1YTQ1NzQ1MTY0MzAzNTRjNjQzMDMxNDk1NDQ4NTI3NjU5NmI1MjMxNjI1NDUyMzU2NDQ0Njg2OTY0NTQ0MjU4NjIzMjUyNmI2NTQ0NGE3YTUwNTM0YTM5IgQgASACKAEa_wMICBABGvADNjU3OTRhN2E2NDQ3NDYzMDVhNTYzOTMyNWE1ODRhN2E2MTU3Mzk3NTQ5NmE2ZjY3NDk2YTQxNzU0ZDUzNDk3MzQ5NDM0YTczNTk1ODRlMzA1ODMyNTIzMTYyNTg0MjY2NjE1NzUxNjk0ZjY5NDE3OTRlNmE2NzMxNGQ1Mzc3Njc0OTZkNzg2ODYzMzM1MjY2NjM0NzQ2Nzk2NDQ3NmMzMDYxNTczOTc1NTgzMjZjNmI0OTZhNmY2NzRjNTQ0NTczNDk0MzRhNmQ2NDU3Nzg3MzU4MzI1MjMxNjI1ODQxNjk0ZjY5NDIzMDYzNmU1NjZjNGM0MzQxNjk2MjQ3NmM3YTY0NDczNTY4NjI1NzU1Njk0ZjY5NDE2OTY0MzI2ODcwNjQ0NzU1NzU1OTMzNGU2YjU4MzM2NDZmNjE1ODUyNmM2MjQ3NmM3YTY0NDM0OTczNDk0MzRhNmE2MTQ3NTY2YTYxMzM0ZTMxNjI1MzQ5MzY0OTQzNGE0MjUyMzA0YTZkNjI0NTU2NTQ1NzZjNGU1OTY1NmQzNDM0NjQ0NzMwNzg2MTU3NmM0NTRlMzAzODM0NGY0MzM5NzE2MzU3NzQ3MTRlMzI0NjZjNTQ2ZTVhNGY1MzMxNTEzNDVhNDU0OTc3NTk2YjZjNGU1MDUzNGEzOSIEIAEgAigBGvgDCOgHEAYa6AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjE0NzQ2N2E2MTQzMzU2OTU5NTc1MjZhNjM2ZTY4NzA1YTQ4NGQ2OTRjNDM0MTY5NTkzMjY4NmM1OTMyNzQ3YTY0NTczMDY5NGY2OTQxNjk2MzQ1MzQzMDU5NTY0ZTdhNTk1NjRlNTg1MzU1NWE3MDUzNmI1MjZiNTIzMzY4NzA2MjMwNzg0MjYzNTg2YzQ1NTY1NjZmMzI2MzQ2NDUzMDUzNDc0YTZmNWE0NDUyNTE0ZDZiMzg3OTY1NmU1YTcyNjM3YTMwNjk2NjUxM2QzZCIEIAEgAigEGogECOkHEAYa-AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjQ0NzY4Nzk1YTU3NDYzMDU4MzM1MjM1NjM0NzU2NjY2NDU4NGE3MzU4MzI2Yzc1NWE2ZDM4Njk0YzQzNDE2OTU5MzI2ODZjNTkzMjc0N2E2NDU3MzA2OTRmNjk0MTY5NTU1NjY4NmE1MjMwNzA2MTU5NTg0NjZiNjQ0NzY0MzI1YTQ1NTY3ODYzMzI3NDRhNTkzMTY4NzI1OTU1MzU0NzUyNDU1YTQzNjU1NTc0NGQ1MjU3NTY1NDY0NDY0NTMyNGQ1NjU2NmE1NTZlNDY1ODYzN2EzMDY5NjY1MTNkM2QiBCABIAIoASICCAM=&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885
+[Web Request      (5c6c:2214)] "GET https://sba.yandex.net/v4/threatListUpdates:fetch?$req=ChkKB2Jyb21pdW0SDjEyMC4wLjYwOTkuODA5GugDCOgHEAYa2AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NTk1NzM1MzU0YzZlNTI2ZjYzNmQ1NjY4NjQ0MzQ5NzM0OTQzNGE2YTYxNDc1NjZhNjEzMzRlMzE2MjUzNDkzNjQ5NDM0OTc4NjM0NTZiNzk2NDQ0NTY0NjUxNTQ0NjU1NTk1NjZjNDM1YTQ1NzQ1MTY0MzAzNTRjNjQzMDMxNDk1NDQ4NTI3NjU5NmI1MjMxNjI1NDUyMzU2NDQ0Njg2OTY0NTQ0MjU4NjIzMjUyNmI2NTQ0NGE3YTUwNTM0YTM5IgQgASACKAEa_wMICBABGvADNjU3OTRhN2E2NDQ3NDYzMDVhNTYzOTMyNWE1ODRhN2E2MTU3Mzk3NTQ5NmE2ZjY3NDk2YTQxNzU0ZDUzNDk3MzQ5NDM0YTczNTk1ODRlMzA1ODMyNTIzMTYyNTg0MjY2NjE1NzUxNjk0ZjY5NDE3OTRlNmE2NzMxNGQ1Mzc3Njc0OTZkNzg2ODYzMzM1MjY2NjM0NzQ2Nzk2NDQ3NmMzMDYxNTczOTc1NTgzMjZjNmI0OTZhNmY2NzRjNTQ0NTczNDk0MzRhNmQ2NDU3Nzg3MzU4MzI1MjMxNjI1ODQxNjk0ZjY5NDIzMDYzNmU1NjZjNGM0MzQxNjk2MjQ3NmM3YTY0NDczNTY4NjI1NzU1Njk0ZjY5NDE2OTY0MzI2ODcwNjQ0NzU1NzU1OTMzNGU2YjU4MzM2NDZmNjE1ODUyNmM2MjQ3NmM3YTY0NDM0OTczNDk0MzRhNmE2MTQ3NTY2YTYxMzM0ZTMxNjI1MzQ5MzY0OTQzNGE0MjUyMzA0YTZkNjI0NTU2NTQ1NzZjNGU1OTY1NmQzNDM0NjQ0NzMwNzg2MTU3NmM0NTRlMzAzODM0NGY0MzM5NzE2MzU3NzQ3MTRlMzI0NjZjNTQ2ZTVhNGY1MzMxNTEzNDVhNDU0OTc3NTk2YjZjNGU1MDUzNGEzOSIEIAEgAigBGvgDCOgHEAYa6AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjE0NzQ2N2E2MTQzMzU2OTU5NTc1MjZhNjM2ZTY4NzA1YTQ4NGQ2OTRjNDM0MTY5NTkzMjY4NmM1OTMyNzQ3YTY0NTczMDY5NGY2OTQxNjk2MzQ1MzQzMDU5NTY0ZTdhNTk1NjRlNTg1MzU1NWE3MDUzNmI1MjZiNTIzMzY4NzA2MjMwNzg0MjYzNTg2YzQ1NTY1NjZmMzI2MzQ2NDUzMDUzNDc0YTZmNWE0NDUyNTE0ZDZiMzg3OTY1NmU1YTcyNjM3YTMwNjk2NjUxM2QzZCIEIAEgAigEGogECOkHEAYa-AM2NTc5NGE3YTY0NDc0NjMwNWE1NjM5MzI1YTU4NGE3YTYxNTczOTc1NDk2YTZmNjc0OTZhNDE3NTRkNTM0OTczNDk0MzRhNzM1OTU4NGUzMDU4MzI1MjMxNjI1ODQyNjY2MTU3NTE2OTRmNjk0MTc5NGU2YTY3MzE0ZDUzNzc2NzQ5NmQ3ODY4NjMzMzUyNjY2MzQ3NDY3OTY0NDc2YzMwNjE1NzM5NzU1ODMyNmM2YjQ5NmE2ZjY3NGM1NDQ1NzM0OTQzNGE2ZDY0NTc3ODczNTgzMjUyMzE2MjU4NDE2OTRmNjk0MjMwNjM2ZTU2NmM0YzQzNDE2OTYyNDc2YzdhNjQ0NzM1Njg2MjU3NTU2OTRmNjk0MTY5NjQ0NzY4Nzk1YTU3NDYzMDU4MzM1MjM1NjM0NzU2NjY2NDU4NGE3MzU4MzI2Yzc1NWE2ZDM4Njk0YzQzNDE2OTU5MzI2ODZjNTkzMjc0N2E2NDU3MzA2OTRmNjk0MTY5NTU1NjY4NmE1MjMwNzA2MTU5NTg0NjZiNjQ0NzY0MzI1YTQ1NTY3ODYzMzI3NDRhNTkzMTY4NzI1OTU1MzU0NzUyNDU1YTQzNjU1NTc0NGQ1MjU3NTY1NDY0NDY0NTMyNGQ1NjU2NmE1NTZlNDY1ODYzN2EzMDY5NjY1MTNkM2QiBCABIAIoASICCAM=&$ct=application/x-protobuf&key=01521754e0283a825c337d251a646d697472792d74b26c94b5f5b6b885"   
+[Network Analyzer (5c6c:2214)]   (Sid: 75) Client -> Server @ : 3625 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2214)]   (Sid: 75) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:2214)]   (Sid: 75) Server -> Client : 2168 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:2214)] Sent 2168 bytes to client @ 192.168.0.100:29338
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29341
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/0f2abce3-eeb9-407b-bf89-428a68bc5ec9 ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/0f2abce3-eeb9-407b-bf89-428a68bc5ec9 ...
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/0f2abce3-eeb9-407b-bf89-428a68bc5ec9
+[Network Analyzer (5c6c:1070)]   (Sid: 76) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/0f2abce3-eeb9-407b-bf89-428a68bc5ec9"   
+[Network Analyzer (5c6c:1070)]   (Sid: 76) Client -> Server @ : 888 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 76) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 76) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:29341
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29344
+[Proxy Recording  (5c6c:2214)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/13b3b0a6-12ec-4eb3-aac1-888df195fc71 ...
+[Proxy Recording.Error (5c6c:2214)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:2214)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/13b3b0a6-12ec-4eb3-aac1-888df195fc71 ...
+[Proxy Recording  (5c6c:2214)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/13b3b0a6-12ec-4eb3-aac1-888df195fc71
+[Network Analyzer (5c6c:2214)]   (Sid: 77) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:2214)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/13b3b0a6-12ec-4eb3-aac1-888df195fc71"   
+[Network Analyzer (5c6c:2214)]   (Sid: 77) Client -> Server @ : 1403 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2214)]   (Sid: 77) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:2214)]   (Sid: 77) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:2214)] Sent 20 bytes to client @ 127.0.0.1:29344
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29346
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/f2e8e971-8e31-4dcf-b7cc-7422c1f1ab51 ...
+[Proxy Recording.Error (5c6c:5e18)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/f2e8e971-8e31-4dcf-b7cc-7422c1f1ab51 ...
+[Proxy Recording  (5c6c:5e18)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/f2e8e971-8e31-4dcf-b7cc-7422c1f1ab51
+[Network Analyzer (5c6c:5e18)]   (Sid: 78) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5e18)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/f2e8e971-8e31-4dcf-b7cc-7422c1f1ab51"   
+[Network Analyzer (5c6c:5e18)]   (Sid: 78) Client -> Server @ : 877 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 78) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 78) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5e18)] Sent 20 bytes to client @ 127.0.0.1:29346
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29348
+[Proxy Recording  (5c6c:5c58)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/84cd9dfb-f4c1-40fa-9ed9-5e703c06ea86 ...
+[Proxy Recording.Error (5c6c:5c58)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5c58)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/84cd9dfb-f4c1-40fa-9ed9-5e703c06ea86 ...
+[Proxy Recording  (5c6c:5c58)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/84cd9dfb-f4c1-40fa-9ed9-5e703c06ea86
+[Network Analyzer (5c6c:5c58)]   (Sid: 79) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5c58)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/84cd9dfb-f4c1-40fa-9ed9-5e703c06ea86"   
+[Network Analyzer (5c6c:5c58)]   (Sid: 79) Client -> Server @ : 896 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5c58)]   (Sid: 79) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5c58)]   (Sid: 79) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5c58)] Sent 20 bytes to client @ 127.0.0.1:29348
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29350
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/763e3271-c030-49a7-aba3-912805e5853a ...
+[Proxy Recording.Error (5c6c:6798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/763e3271-c030-49a7-aba3-912805e5853a ...
+[Proxy Recording  (5c6c:6798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/763e3271-c030-49a7-aba3-912805e5853a
+[Network Analyzer (5c6c:6798)]   (Sid: 80) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/763e3271-c030-49a7-aba3-912805e5853a"   
+[Network Analyzer (5c6c:6798)]   (Sid: 80) Client -> Server @ : 1442 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 80) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 80) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 20 bytes to client @ 127.0.0.1:29350
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29352
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/461bb3e6-4b4e-4546-ae21-83f9c9e016f2 ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/461bb3e6-4b4e-4546-ae21-83f9c9e016f2 ...
+[Proxy Recording  (5c6c: e00)] Client request from @ 192.168.0.100:29354
+[Proxy Recording.Error (5c6c:5c58)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/461bb3e6-4b4e-4546-ae21-83f9c9e016f2
+[Network Analyzer (5c6c:1070)]   (Sid: 81) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/461bb3e6-4b4e-4546-ae21-83f9c9e016f2"   
+[Network Analyzer (5c6c:1070)]   (Sid: 81) Client -> Server @ : 878 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 81) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 81) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:29352
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29355
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/1715ba15-92e6-4291-b6bf-5d61a3260fec ...
+[Proxy Recording.Error (5c6c:6798)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:6798)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/1715ba15-92e6-4291-b6bf-5d61a3260fec ...
+[Proxy Recording  (5c6c:6798)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/1715ba15-92e6-4291-b6bf-5d61a3260fec
+[Network Analyzer (5c6c:6798)]   (Sid: 82) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:6798)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/1715ba15-92e6-4291-b6bf-5d61a3260fec"   
+[Network Analyzer (5c6c:6798)]   (Sid: 82) Client -> Server @ : 721 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 82) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:6798)]   (Sid: 82) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:6798)] Sent 20 bytes to client @ 127.0.0.1:29355
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29357
+[Proxy Recording  (5c6c:2214)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/21b02267-0ae9-41c5-a7f0-63022c8e6322 ...
+[Proxy Recording.Error (5c6c:2214)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:2214)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/21b02267-0ae9-41c5-a7f0-63022c8e6322 ...
+[Proxy Recording  (5c6c:2214)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/21b02267-0ae9-41c5-a7f0-63022c8e6322
+[Network Analyzer (5c6c:2214)]   (Sid: 83) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:2214)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/21b02267-0ae9-41c5-a7f0-63022c8e6322"   
+[Network Analyzer (5c6c:2214)]   (Sid: 83) Client -> Server @ : 714 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2214)]   (Sid: 83) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:2214)]   (Sid: 83) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:2214)] Sent 20 bytes to client @ 127.0.0.1:29357
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29359
+[Proxy Recording  (5c6c:3958)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/579d17c9-37a7-4160-9c9a-66098d2dbf8a ...
+[Proxy Recording.Error (5c6c:3958)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:3958)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/579d17c9-37a7-4160-9c9a-66098d2dbf8a ...
+[Proxy Recording  (5c6c:3958)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/579d17c9-37a7-4160-9c9a-66098d2dbf8a
+[Network Analyzer (5c6c:3958)]   (Sid: 84) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:3958)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/579d17c9-37a7-4160-9c9a-66098d2dbf8a"   
+[Network Analyzer (5c6c:3958)]   (Sid: 84) Client -> Server @ : 891 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:3958)]   (Sid: 84) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:3958)]   (Sid: 84) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:3958)] Sent 20 bytes to client @ 127.0.0.1:29359
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29361
+[Proxy Recording  (5c6c:5c58)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/2f82f750-ad79-4dc5-9caa-5a4d04948081 ...
+[Proxy Recording.Error (5c6c:5c58)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5c58)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/2f82f750-ad79-4dc5-9caa-5a4d04948081 ...
+[Proxy Recording  (5c6c:5c58)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/2f82f750-ad79-4dc5-9caa-5a4d04948081
+[Network Analyzer (5c6c:5c58)]   (Sid: 85) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5c58)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/2f82f750-ad79-4dc5-9caa-5a4d04948081"   
+[Network Analyzer (5c6c:5c58)]   (Sid: 85) Client -> Server @ : 1891 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5c58)]   (Sid: 85) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5c58)]   (Sid: 85) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5c58)] Sent 20 bytes to client @ 127.0.0.1:29361
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29363
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/93a3ac7d-87f3-4430-b15d-18d82fe2809c ...
+[Proxy Recording.Error (5c6c:5e18)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5e18)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/93a3ac7d-87f3-4430-b15d-18d82fe2809c ...
+[Proxy Recording  (5c6c:5e18)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/93a3ac7d-87f3-4430-b15d-18d82fe2809c
+[Network Analyzer (5c6c:5e18)]   (Sid: 86) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5e18)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/93a3ac7d-87f3-4430-b15d-18d82fe2809c"   
+[Network Analyzer (5c6c:5e18)]   (Sid: 86) Client -> Server @ : 874 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 86) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5e18)]   (Sid: 86) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5e18)] Sent 20 bytes to client @ 127.0.0.1:29363
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29365
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/01d7712f-04b9-4de6-a2bc-04e0813aaa5b ...
+[Proxy Recording.Error (5c6c:1070)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:1070)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/01d7712f-04b9-4de6-a2bc-04e0813aaa5b ...
+[Proxy Recording  (5c6c:1070)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/pageload/1/01d7712f-04b9-4de6-a2bc-04e0813aaa5b
+[Network Analyzer (5c6c:1070)]   (Sid: 87) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:1070)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/01d7712f-04b9-4de6-a2bc-04e0813aaa5b"   
+[Network Analyzer (5c6c:1070)]   (Sid: 87) Client -> Server @ : 399 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 87) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:1070)]   (Sid: 87) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:1070)] Sent 20 bytes to client @ 127.0.0.1:29365
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29367
+[Proxy Recording  (5c6c:2214)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/b7b2387e-c072-4c3b-ac10-1c8b5e7e26a2 ...
+[Proxy Recording.Error (5c6c:2214)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:2214)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/b7b2387e-c072-4c3b-ac10-1c8b5e7e26a2 ...
+[Proxy Recording  (5c6c:2214)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/b7b2387e-c072-4c3b-ac10-1c8b5e7e26a2
+[Network Analyzer (5c6c:2214)]   (Sid: 88) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:2214)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/b7b2387e-c072-4c3b-ac10-1c8b5e7e26a2"   
+[Network Analyzer (5c6c:2214)]   (Sid: 88) Client -> Server @ : 471 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:2214)]   (Sid: 88) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:2214)]   (Sid: 88) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:2214)] Sent 20 bytes to client @ 127.0.0.1:29367
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29369
+[Proxy Recording  (5c6c:3958)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/b720dfb2-8ea2-42d2-b189-a7ad3e81225a ...
+[Proxy Recording.Error (5c6c:3958)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:3958)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/b720dfb2-8ea2-42d2-b189-a7ad3e81225a ...
+[Proxy Recording  (5c6c:3958)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/b720dfb2-8ea2-42d2-b189-a7ad3e81225a
+[Network Analyzer (5c6c:3958)]   (Sid: 89) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:3958)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/b720dfb2-8ea2-42d2-b189-a7ad3e81225a"   
+[Network Analyzer (5c6c:3958)]   (Sid: 89) Client -> Server @ : 758 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:3958)]   (Sid: 89) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:3958)]   (Sid: 89) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:3958)] Sent 20 bytes to client @ 127.0.0.1:29369
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29371
+[Proxy Recording  (5c6c:5c58)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/b3cd69f7-e6f8-4ddc-a22c-13360359be3c ...
+[Proxy Recording.Error (5c6c:5c58)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5c58)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/b3cd69f7-e6f8-4ddc-a22c-13360359be3c ...
+[Proxy Recording  (5c6c:5c58)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/b3cd69f7-e6f8-4ddc-a22c-13360359be3c
+[Network Analyzer (5c6c:5c58)]   (Sid: 90) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5c58)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/b3cd69f7-e6f8-4ddc-a22c-13360359be3c"   
+[Network Analyzer (5c6c:5c58)]   (Sid: 90) Client -> Server @ : 716 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5c58)]   (Sid: 90) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5c58)]   (Sid: 90) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5c58)] Sent 20 bytes to client @ 127.0.0.1:29371
+[User action                 ] EndTransactionEvent fiilll [User action                 ] StartTransactionEvent register [Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29379
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/AccountCreateRequest ...
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/AccountCreateRequest ...
+[Proxy Recording  (5c6c:5860)] Received response of 732 header and 443 body bytes from https://www.advantageonlineshopping.com:443/accountservice/ws/AccountCreateRequest
+[Network Analyzer (5c6c:5860)]   (Sid: 91) Client -> Server @ : 1266 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5860)] "POST https://www.advantageonlineshopping.com/accountservice/ws/AccountCreateRequest"   
+[Network Analyzer (5c6c:5860)]   (Sid: 91) Client -> Server @ : 740 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid: 91) Server -> Client : 747 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid: 91) Server -> Client : 443 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5860)] Sent 443 bytes to client @ 127.0.0.1:29379
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29382
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29383
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29384
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29385
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29387
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://www.google.ru:443/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=2100743852 ...
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://www.google.ru:443/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=2100743852 ...
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=register&_ee=1&ep.event_category=Account&_et=67450&tfd=165329 ...
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=event&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=register&_u=CACAAEABAAAAACACIAC~&jid=1659752020&gjid=1750006749&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1343406739 ...
+[Proxy Recording  (5c6c:457c)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=786209403&gjid=1530856399&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1132712648 ...
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=register&_ee=1&ep.event_category=Account&_et=67450&tfd=165329 ...
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=event&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=register&_u=CACAAEABAAAAACACIAC~&jid=1659752020&gjid=1750006749&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1343406739 ...
+[Proxy Recording  (5c6c:5860)] Received response of 421 header and 0 body bytes from https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=register&_ee=1&ep.event_category=Account&_et=67450&tfd=165329
+[Proxy Recording  (5c6c:4de0)] Received response of 500 header and 1 body bytes from https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=event&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=register&_u=CACAAEABAAAAACACIAC~&jid=1659752020&gjid=1750006749&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1343406739
+[Web Request      (5c6c:5860)] "POST https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&_gaz=1&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&en=register&_ee=1&ep.event_category=Account&_et=67450&tfd=165329"   
+[Network Analyzer (5c6c:5860)]   (Sid: 92) Client -> Server @ : 803 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid: 92) Server -> Client : 446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5860)] Sent 0 bytes to client @ 127.0.0.1:29383
+[Web Request      (5c6c:4de0)] "POST https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1114944676&t=event&_s=4&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=register&_u=CACAAEABAAAAACACIAC~&jid=1659752020&gjid=1750006749&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1343406739"   
+[Proxy Recording  (5c6c:457c)] Trying to connect to https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=786209403&gjid=1530856399&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1132712648 ...
+[Network Analyzer (5c6c:4de0)]   (Sid: 93) Client -> Server @ : 824 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid: 93) Server -> Client : 517 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid: 93) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:4de0)] Sent 1 bytes to client @ 127.0.0.1:29382
+[Proxy Recording  (5c6c:64ac)] Received response of 503 header and 42 body bytes from https://www.google.ru:443/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=2100743852
+[Proxy Recording  (5c6c:457c)] Received response of 500 header and 1 body bytes from https://www.google-analytics.com:443/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=786209403&gjid=1530856399&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1132712648
+[Web Request      (5c6c:64ac)] "GET https://www.google.ru/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-56EMNRF2S2&cid=195396409.1710188489&gtm=45je43b0v9126552653za200&aip=1&dma=0&gcd=13l3l3l3l2&npa=0&z=2100743852"   
+[Network Analyzer (5c6c:64ac)]   (Sid: 94) Client -> Server @ : 561 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid: 94) Server -> Client : 520 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid: 94) Server -> Client : 42 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:64ac)] Sent 42 bytes to client @ 127.0.0.1:29384
+[Web Request      (5c6c:457c)] "POST https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1114944676&t=pageview&_s=5&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&_u=CACAAEABAAAAACACIAC~&jid=786209403&gjid=1530856399&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&_r=1&z=1132712648"   
+[Network Analyzer (5c6c:457c)]   (Sid: 95) Client -> Server @ : 810 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:457c)]   (Sid: 95) Server -> Client : 517 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:457c)]   (Sid: 95) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:457c)] Sent 1 bytes to client @ 127.0.0.1:29387
+[Proxy Recording  (5c6c:30fc)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/AccountLoginRequest ...
+[Proxy Recording  (5c6c:30fc)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/AccountLoginRequest ...
+[Proxy Recording  (5c6c:30fc)] Received response of 732 header and 799 body bytes from https://www.advantageonlineshopping.com:443/accountservice/ws/AccountLoginRequest
+[Network Analyzer (5c6c:30fc)]   (Sid: 96) Client -> Server @ : 1273 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:30fc)] "POST https://www.advantageonlineshopping.com/accountservice/ws/AccountLoginRequest"   
+[Network Analyzer (5c6c:30fc)]   (Sid: 96) Client -> Server @ : 446 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30fc)]   (Sid: 96) Server -> Client : 747 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:30fc)]   (Sid: 96) Server -> Client : 799 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30fc)] Sent 799 bytes to client @ 127.0.0.1:29385
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29394
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29395
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j101&a=1114944676&t=event&_s=6&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=signIn&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=52470847 ...
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://www.google-analytics.com:443/collect?v=1&_v=j101&a=1114944676&t=event&_s=6&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=signIn&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=52470847 ...
+[Proxy Recording  (5c6c:64ac)] Received response of 433 header and 35 body bytes from https://www.google-analytics.com:443/collect?v=1&_v=j101&a=1114944676&t=event&_s=6&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=signIn&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=52470847
+[Web Request      (5c6c:64ac)] "GET https://www.google-analytics.com/collect?v=1&_v=j101&a=1114944676&t=event&_s=6&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1536x864&vp=1536x731&je=0&ec=Account&ea=signIn&_u=CACAAEABAAAAACACIAC~&jid=&gjid=&cid=195396409.1710188489&tid=UA-81334227-1&_gid=685693085.1710188514&z=52470847"   
+[Network Analyzer (5c6c:64ac)]   (Sid: 97) Client -> Server @ : 723 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid: 97) Server -> Client : 450 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid: 97) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:64ac)] Sent 35 bytes to client @ 127.0.0.1:29394
+[Proxy Recording  (5c6c:457c)] Trying to connect to https://www.advantageonlineshopping.com:443/order/api/v1/carts/214997259 ...
+[Proxy Recording  (5c6c:457c)] Trying to connect to https://www.advantageonlineshopping.com:443/order/api/v1/carts/214997259 ...
+[Proxy Recording  (5c6c:457c)] Received response of 480 header and 111 body bytes from https://www.advantageonlineshopping.com:443/order/api/v1/carts/214997259
+[Web Request      (5c6c:457c)] "GET https://www.advantageonlineshopping.com/order/api/v1/carts/214997259"   
+[Network Analyzer (5c6c:457c)]   (Sid: 98) Client -> Server @ : 1092 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:457c)]   (Sid: 98) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:457c)]   (Sid: 98) Server -> Client : 111 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:457c)] Sent 111 bytes to client @ 127.0.0.1:29395
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29398
+[Proxy Recording  (5c6c:29c8)] Trying to connect to https://www.advantageonlineshopping.com:443/order/api/v1/carts/214997259 ...
+[Proxy Recording  (5c6c:29c8)] Trying to connect to https://www.advantageonlineshopping.com:443/order/api/v1/carts/214997259 ...
+[Proxy Recording  (5c6c:29c8)] Received response of 517 header and 100 body bytes from https://www.advantageonlineshopping.com:443/order/api/v1/carts/214997259
+[Network Analyzer (5c6c:29c8)]   (Sid: 99) Client -> Server @ : 852 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:29c8)] "PUT https://www.advantageonlineshopping.com/order/api/v1/carts/214997259"   
+[Network Analyzer (5c6c:29c8)]   (Sid: 99) Client -> Server @ : 51 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:29c8)]   (Sid: 99) Server -> Client : 504 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:29c8)]   (Sid: 99) Server -> Client : 100 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:29c8)] Sent 100 bytes to client @ 127.0.0.1:29398
+[User action                 ] EndTransactionEvent register [Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29400
+[Proxy Recording  (5c6c:30fc)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&_s=6&tfd=170360 ...
+[Proxy Recording  (5c6c:30fc)] Trying to connect to https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&_s=6&tfd=170360 ...
+[Proxy Recording  (5c6c:30fc)] Received response of 421 header and 0 body bytes from https://analytics.google.com:443/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&_s=6&tfd=170360
+[Network Analyzer (5c6c:30fc)]   (Sid:100) Client -> Server @ : 783 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:30fc)] "POST https://analytics.google.com/g/collect?v=2&tid=G-56EMNRF2S2&gtm=45je43b0v9126552653za200&_p=1710270666566&gcd=13l3l3l3l2&npa=0&dma=0&ul=en-us&sr=1536x864&cid=195396409.1710188489&ir=1&pscdl=noapi&_eu=EBAI&dl=https%3A%2F%2Fwww.advantageonlineshopping.com%2F&dt=%C2%A0Advantage%20Shopping&sid=1710268627&sct=3&seg=1&_s=6&tfd=170360"   
+[Network Analyzer (5c6c:30fc)]   (Sid:100) Client -> Server @ : 83 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30fc)]   (Sid:100) Server -> Client : 446 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30fc)] Sent 0 bytes to client @ 127.0.0.1:29400
+[User action                 ] StartTransactionEvent logout [Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29405
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/ff062622-c985-4865-82b4-72afbfdbd9ba ...
+[Proxy Recording.Error (5c6c:4de0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/ff062622-c985-4865-82b4-72afbfdbd9ba ...
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29407
+[Proxy Recording  (5c6c:29c8)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (5c6c:4de0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/ff062622-c985-4865-82b4-72afbfdbd9ba
+[Network Analyzer (5c6c:4de0)]   (Sid:101) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:4de0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/ff062622-c985-4865-82b4-72afbfdbd9ba"   
+[Network Analyzer (5c6c:4de0)]   (Sid:101) Client -> Server @ : 887 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid:101) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid:101) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:4de0)] Sent 20 bytes to client @ 127.0.0.1:29405
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29410
+[Proxy Recording  (5c6c:30fc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a5f86b1e-4fc0-400a-acef-7a1fa06e67f5 ...
+[Proxy Recording.Error (5c6c:30fc)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:30fc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a5f86b1e-4fc0-400a-acef-7a1fa06e67f5 ...
+[Web Request      (5c6c:29c8)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (5c6c:29c8)]   (Sid:102) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:29c8)]   (Sid:102) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30fc)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a5f86b1e-4fc0-400a-acef-7a1fa06e67f5
+[Network Analyzer (5c6c:30fc)]   (Sid:103) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:30fc)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/a5f86b1e-4fc0-400a-acef-7a1fa06e67f5"   
+[Network Analyzer (5c6c:30fc)]   (Sid:103) Client -> Server @ : 1396 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30fc)]   (Sid:103) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:30fc)]   (Sid:103) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30fc)] Sent 20 bytes to client @ 127.0.0.1:29410
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29413
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/a1f476dc-ed5d-4996-8671-193bec73e0a1 ...
+[Proxy Recording.Error (5c6c:5860)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/a1f476dc-ed5d-4996-8671-193bec73e0a1 ...
+[Proxy Recording  (5c6c:5860)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/a1f476dc-ed5d-4996-8671-193bec73e0a1
+[Network Analyzer (5c6c:5860)]   (Sid:104) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5860)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/a1f476dc-ed5d-4996-8671-193bec73e0a1"   
+[Network Analyzer (5c6c:5860)]   (Sid:104) Client -> Server @ : 875 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid:104) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid:104) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5860)] Sent 20 bytes to client @ 127.0.0.1:29413
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29415
+[Proxy Recording  (5c6c:457c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/5364d371-3a9b-479a-aa20-a1a312de3875 ...
+[Proxy Recording.Error (5c6c:457c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:457c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/5364d371-3a9b-479a-aa20-a1a312de3875 ...
+[Proxy Recording  (5c6c:457c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/5364d371-3a9b-479a-aa20-a1a312de3875
+[Network Analyzer (5c6c:457c)]   (Sid:105) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:457c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/5364d371-3a9b-479a-aa20-a1a312de3875"   
+[Network Analyzer (5c6c:457c)]   (Sid:105) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:457c)]   (Sid:105) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:457c)]   (Sid:105) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:457c)] Sent 20 bytes to client @ 127.0.0.1:29415
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29417
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/8c1821e2-58aa-4753-bc5c-ababb667653b ...
+[Proxy Recording.Error (5c6c:64ac)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/8c1821e2-58aa-4753-bc5c-ababb667653b ...
+[Proxy Recording  (5c6c:64ac)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/8c1821e2-58aa-4753-bc5c-ababb667653b
+[Network Analyzer (5c6c:64ac)]   (Sid:106) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:64ac)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/8c1821e2-58aa-4753-bc5c-ababb667653b"   
+[Network Analyzer (5c6c:64ac)]   (Sid:106) Client -> Server @ : 735 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid:106) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid:106) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:64ac)] Sent 20 bytes to client @ 127.0.0.1:29417
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29419
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/420afaf1-4ebb-43c0-8e9b-2155d2d4f873 ...
+[Proxy Recording.Error (5c6c:4de0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/420afaf1-4ebb-43c0-8e9b-2155d2d4f873 ...
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29421
+[Proxy Recording  (5c6c:4de0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/420afaf1-4ebb-43c0-8e9b-2155d2d4f873
+[Network Analyzer (5c6c:4de0)]   (Sid:107) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:4de0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/420afaf1-4ebb-43c0-8e9b-2155d2d4f873"   
+[Network Analyzer (5c6c:4de0)]   (Sid:107) Client -> Server @ : 720 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid:107) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid:107) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:4de0)] Sent 20 bytes to client @ 127.0.0.1:29419
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29423
+[Proxy Recording  (5c6c:29c8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/33b1b2b8-6731-48b0-a554-d869398dd147 ...
+[Proxy Recording.Error (5c6c:29c8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:29c8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/33b1b2b8-6731-48b0-a554-d869398dd147 ...
+[Proxy Recording  (5c6c:30fc)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/AccountLogoutRequest ...
+[Proxy Recording  (5c6c:30fc)] Trying to connect to https://www.advantageonlineshopping.com:443/accountservice/ws/AccountLogoutRequest ...
+[Proxy Recording  (5c6c:29c8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/33b1b2b8-6731-48b0-a554-d869398dd147
+[Network Analyzer (5c6c:29c8)]   (Sid:108) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:29c8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/33b1b2b8-6731-48b0-a554-d869398dd147"   
+[Network Analyzer (5c6c:29c8)]   (Sid:108) Client -> Server @ : 892 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:29c8)]   (Sid:108) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:29c8)]   (Sid:108) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:29c8)] Sent 20 bytes to client @ 127.0.0.1:29423
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29425
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a3c82ec7-7161-4add-937e-e69352a4ce4d ...
+[Proxy Recording.Error (5c6c:4de0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a3c82ec7-7161-4add-937e-e69352a4ce4d ...
+[Proxy Recording  (5c6c:30fc)] Received response of 732 header and 402 body bytes from https://www.advantageonlineshopping.com:443/accountservice/ws/AccountLogoutRequest
+[Network Analyzer (5c6c:30fc)]   (Sid:109) Client -> Server @ : 875 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:30fc)] "POST https://www.advantageonlineshopping.com/accountservice/ws/AccountLogoutRequest"   
+[Network Analyzer (5c6c:30fc)]   (Sid:109) Client -> Server @ : 434 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:30fc)]   (Sid:109) Server -> Client : 747 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:30fc)]   (Sid:109) Server -> Client : 402 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:30fc)] Sent 402 bytes to client @ 127.0.0.1:29421
+[Proxy Recording  (5c6c:4de0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a3c82ec7-7161-4add-937e-e69352a4ce4d
+[Network Analyzer (5c6c:4de0)]   (Sid:110) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:4de0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/a3c82ec7-7161-4add-937e-e69352a4ce4d"   
+[Network Analyzer (5c6c:4de0)]   (Sid:110) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid:110) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid:110) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:4de0)] Sent 20 bytes to client @ 127.0.0.1:29425
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29427
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/632923a9-69f4-4640-97dd-96bcdd054d75 ...
+[Proxy Recording.Error (5c6c:5860)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/632923a9-69f4-4640-97dd-96bcdd054d75 ...
+[Proxy Recording  (5c6c:5860)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/632923a9-69f4-4640-97dd-96bcdd054d75
+[Network Analyzer (5c6c:5860)]   (Sid:111) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5860)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/632923a9-69f4-4640-97dd-96bcdd054d75"   
+[Network Analyzer (5c6c:5860)]   (Sid:111) Client -> Server @ : 876 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid:111) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid:111) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5860)] Sent 20 bytes to client @ 127.0.0.1:29427
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29429
+[Proxy Recording  (5c6c:457c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/d6d83e1b-62e4-43f3-a52b-2274716b4316 ...
+[Proxy Recording.Error (5c6c:457c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:457c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/d6d83e1b-62e4-43f3-a52b-2274716b4316 ...
+[Proxy Recording  (5c6c:457c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/d6d83e1b-62e4-43f3-a52b-2274716b4316
+[Network Analyzer (5c6c:457c)]   (Sid:112) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:457c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/d6d83e1b-62e4-43f3-a52b-2274716b4316"   
+[Network Analyzer (5c6c:457c)]   (Sid:112) Client -> Server @ : 471 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:457c)]   (Sid:112) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:457c)]   (Sid:112) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:457c)] Sent 20 bytes to client @ 127.0.0.1:29429
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29431
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/10396648-1db6-4146-a44a-b26bd8431c19 ...
+[Proxy Recording.Error (5c6c:64ac)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/10396648-1db6-4146-a44a-b26bd8431c19 ...
+[Proxy Recording  (5c6c:64ac)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/10396648-1db6-4146-a44a-b26bd8431c19
+[Network Analyzer (5c6c:64ac)]   (Sid:113) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:64ac)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/10396648-1db6-4146-a44a-b26bd8431c19"   
+[Network Analyzer (5c6c:64ac)]   (Sid:113) Client -> Server @ : 737 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid:113) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid:113) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:64ac)] Sent 20 bytes to client @ 127.0.0.1:29431
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29433
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/7584f82e-092d-4ebd-8d9f-509466a80307 ...
+[Proxy Recording.Error (5c6c:4de0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:4de0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/7584f82e-092d-4ebd-8d9f-509466a80307 ...
+[Proxy Recording  (5c6c:4de0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/7584f82e-092d-4ebd-8d9f-509466a80307
+[Network Analyzer (5c6c:4de0)]   (Sid:114) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:4de0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/7584f82e-092d-4ebd-8d9f-509466a80307"   
+[Network Analyzer (5c6c:4de0)]   (Sid:114) Client -> Server @ : 719 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid:114) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:4de0)]   (Sid:114) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:4de0)] Sent 20 bytes to client @ 127.0.0.1:29433
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29435
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/228a2f23-a794-4900-9beb-dd702f519c11 ...
+[Proxy Recording.Error (5c6c:5860)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:5860)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/228a2f23-a794-4900-9beb-dd702f519c11 ...
+[Proxy Recording  (5c6c:5860)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/228a2f23-a794-4900-9beb-dd702f519c11
+[Network Analyzer (5c6c:5860)]   (Sid:115) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:5860)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/228a2f23-a794-4900-9beb-dd702f519c11"   
+[Network Analyzer (5c6c:5860)]   (Sid:115) Client -> Server @ : 891 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid:115) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:5860)]   (Sid:115) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:5860)] Sent 20 bytes to client @ 127.0.0.1:29435
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29437
+[Proxy Recording  (5c6c:29c8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/188062b1-2eba-4816-bd5c-eb11e6384833 ...
+[Proxy Recording.Error (5c6c:29c8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:29c8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/188062b1-2eba-4816-bd5c-eb11e6384833 ...
+[Proxy Recording  (5c6c:29c8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/188062b1-2eba-4816-bd5c-eb11e6384833
+[Network Analyzer (5c6c:29c8)]   (Sid:116) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:29c8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/188062b1-2eba-4816-bd5c-eb11e6384833"   
+[Network Analyzer (5c6c:29c8)]   (Sid:116) Client -> Server @ : 671 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:29c8)]   (Sid:116) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:29c8)]   (Sid:116) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:29c8)] Sent 20 bytes to client @ 127.0.0.1:29437
+[Proxy Recording  (5c6c:6dd4)] Client request from @ 127.0.0.1:29439
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/838fe786-bbda-4fab-801a-6f94001c7b68 ...
+[Proxy Recording.Error (5c6c:64ac)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (5c6c:64ac)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/838fe786-bbda-4fab-801a-6f94001c7b68 ...
+[Proxy Recording  (5c6c:64ac)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/838fe786-bbda-4fab-801a-6f94001c7b68
+[Network Analyzer (5c6c:64ac)]   (Sid:117) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (5c6c:64ac)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/838fe786-bbda-4fab-801a-6f94001c7b68"   
+[Network Analyzer (5c6c:64ac)]   (Sid:117) Client -> Server @ : 898 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid:117) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5c6c:64ac)]   (Sid:117) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (5c6c:64ac)] Sent 20 bytes to client @ 127.0.0.1:29439
+[User action                 ] EndTransactionEvent logout 

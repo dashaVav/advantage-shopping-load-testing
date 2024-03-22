@@ -1,0 +1,4 @@
+"{\"stats\": [{\"webVitalTimings\":[{\"name\":\"https://github.com/dashaVav/loadrunner-webtours"
+"/tree/master/Scripts\",\"app\":\"react-code-view\",\"inp\":0,\"networkConnType\":\"4g\",\"ssr\""
+":true,\"lazy\":false,\"alternate\":false}],\"timestamp\":1710938779221,\"loggedIn\":true,\"sta"
+"ff\":false,\"bundler\":\"webpack\"}] }"

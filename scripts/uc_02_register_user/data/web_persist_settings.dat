@@ -1,0 +1,27 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2024/03/11 21:08:20
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2024/03/11 21:21:43
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2024/03/12 19:10:50
+StartRecordingIsDst_3=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+[Security]
+UsingPersistForAuthentication=1
+UserName_1_1=dashaVav
+Password_1_1=dashaVav2002
+Realm_1_1=www.advantageonlineshopping.com:443
+EventId_1_1=511
+UserName_1_2=4EFdOmMsMGUinXphTQYnKXB9wXk4vy0T
+Password_1_2=
+Realm_1_2=api.segment.io:443
+EventId_1_2=367
+UserName_2_1=dasha11
+Password_2_1=Dasha11
+Realm_2_1=www.advantageonlineshopping.com:443
+EventId_2_1=1118
+UserName_3_1=dasha1110
+Password_3_1=Dasha1110
+Realm_3_1=www.advantageonlineshopping.com:443
+EventId_3_1=1628

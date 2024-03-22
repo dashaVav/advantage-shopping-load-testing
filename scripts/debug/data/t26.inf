@@ -1,0 +1,15 @@
+[t26]
+FileName1=t26_ALL.json
+URL1=https://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_26.xml
+RequestHeaderFile=t26_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t26_ResponseHeader.txt
+FileName2=t26_Roboto-Medium-webfont.html
+URL2=https://www.advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+FileName3=t26_Roboto-Light-webfont.html
+URL3=https://www.advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

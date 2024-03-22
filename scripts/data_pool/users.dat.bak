@@ -1,0 +1,12 @@
+address,cityName,email,firstName,lastName,login,password,phoneNumber,stateProvince,zipcode,country
+12 Grimmauld Place,London,harry_potter@mail.com,Harry,Potter,harry1231,Potter123,441 234 567 890,London,12345,United States
+12 Grimmauld Place,London,hermione_granger@mail.com,Hermione,Granger,hermione123,Granger123,441 234 567 892,London,12345,United States
+12 Grimmauld Place,London,draco_malfoy@mail.com,Draco,Malfoy,draco123,Malfoy123,441 234 567 893,London,12345,United States
+12 Grimmauld Place,London,ginny_weaey@mail.com,Ginny,Weasley,ginny923,Weasley123,441 234 567 894,London,12345,United States
+12 Grimmauld Place,London,fred_weas@mail.com,Fred,Weasley,fred23,Weasley123,441 234 567 895,London,12345,United States
+12 Grimmauld Place,London,george_wey@mail.com,George,Weasley,george13,Weasley123,441 234 567 896,London,12345,United States
+12 Grimmauld Place,London,percy_wley@mail.com,Percy,Weasley,percy12,Weasley123,441 234 567 897,London,12345,United States
+12 Grimmauld Place,London,luna_good@mail.com,Luna,Lovegood,luna19,Lovegood123,441 234 567 898,London,12345,United States
+12 Grimmauld Place,London,neville@mail.com,Neville,Longbottom,neville696,Longboom123,441 234 567 899,London,12345,United States
+12 Grimmauld Place,London,severus_snape@mail.com,Severus,Snape,snape123,Snape123,441 234 567 900,London,12345,United States
+12 Grimmauld Place,London,ron_weasley@mail.com,Ron,Weasley,ron123,Weasley123,441 234 567 891,London,12345,United States

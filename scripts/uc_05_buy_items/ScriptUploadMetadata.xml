@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>uc_05_buy_items</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="uc_05_buy_items.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="uc_05_buy_items.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_uc_05_buy_items.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="180843049440.idx" Filter="1" />
+    <FileEntry Name="18084304944_A8b.154.idx" Filter="1" />
+    <FileEntry Name="18084304944_bkf.394.idx" Filter="1" />
+    <FileEntry Name="18084304944_BVG.290.idx" Filter="1" />
+    <FileEntry Name="18084304944_dag.342.idx" Filter="1" />
+    <FileEntry Name="18084304944_hK8.904.idx" Filter="1" />
+    <FileEntry Name="18084304944_hwH.62.idx" Filter="1" />
+    <FileEntry Name="18084304944_JmC.804.idx" Filter="1" />
+    <FileEntry Name="18084304944_lAl.266.idx" Filter="1" />
+    <FileEntry Name="18084304944_OTI.760.idx" Filter="1" />
+    <FileEntry Name="18084304944_pKU.316.idx" Filter="1" />
+    <FileEntry Name="18084304944_SGi.428.idx" Filter="1" />
+    <FileEntry Name="18084304944_Uee.772.idx" Filter="1" />
+    <FileEntry Name="18084304944_UtY.58.idx" Filter="1" />
+    <FileEntry Name="18084304944_VlS.960.idx" Filter="1" />
+    <FileEntry Name="18084304944_W4j.122.idx" Filter="1" />
+    <FileEntry Name="18084304944_XB0.134.idx" Filter="1" />
+    <FileEntry Name="98956206440.idx" Filter="1" />
+    <FileEntry Name="9895620644_4GS.803.idx" Filter="1" />
+    <FileEntry Name="9895620644_4Lj.265.idx" Filter="1" />
+    <FileEntry Name="9895620644_8ct.759.idx" Filter="1" />
+    <FileEntry Name="9895620644_b5I.959.idx" Filter="1" />
+    <FileEntry Name="9895620644_Bka.133.idx" Filter="1" />
+    <FileEntry Name="9895620644_EUe.289.idx" Filter="1" />
+    <FileEntry Name="9895620644_EVC.341.idx" Filter="1" />
+    <FileEntry Name="9895620644_JK2.393.idx" Filter="1" />
+    <FileEntry Name="9895620644_lia.61.idx" Filter="1" />
+    <FileEntry Name="9895620644_MFk.153.idx" Filter="1" />
+    <FileEntry Name="9895620644_mNY.121.idx" Filter="1" />
+    <FileEntry Name="9895620644_ozr.771.idx" Filter="1" />
+    <FileEntry Name="9895620644_Pib.57.idx" Filter="1" />
+    <FileEntry Name="9895620644_VD0.427.idx" Filter="1" />
+    <FileEntry Name="9895620644_yTf.315.idx" Filter="1" />
+    <FileEntry Name="9895620644_ZsY.903.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvDk2.221.log" Filter="1" />
+    <FileEntry Name="mdrvipm.779.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="uc_05_buy_items.c.pickle" Filter="1" />
+    <FileEntry Name="uc_05_buy_items.ci" Filter="1" />
+    <FileEntry Name="uc_05_buy_items.prm.bak" Filter="1" />
+    <FileEntry Name="uc_4_add_to_cart.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

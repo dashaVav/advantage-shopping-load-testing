@@ -1,0 +1,17 @@
+HTTP/1.1 204 No Content
+Date: Wed, 20 Mar 2024 12:46:37 GMT
+access-control-allow-methods: POST,OPTIONS
+access-control-allow-headers: Content-Type
+access-control-allow-credentials: true
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+X-Runtime: 0.002204
+Strict-Transport-Security: max-age=631138519
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+x-github-backend: Kubernetes
+X-GitHub-Request-Id: AE0B:C5C8F:9A2AD7:10FED09:65FADAAC
+

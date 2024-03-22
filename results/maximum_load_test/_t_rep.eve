@@ -1,0 +1,253 @@
+28 11 1711044025 2 545517328 207465965 1699548
+28 4 uc_03_search 5 1711044027 0 uc_03_search_1 localhost 0 1
+28 10 localhost 28 0 0
+28 0 uc_03_search 5 1711044027 0 localhost 0
+28 8 uc_03_search 5  0 0
+28 2 uc_03_search 5 1711044027 0 p 0 0
+28 4 uc_04_add_to_card 5 1711044032 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 5 1711044032 0 localhost 0
+28 8 uc_04_add_to_card 5  0 0
+28 2 uc_04_add_to_card 5 1711044032 0 p 0 0
+28 4 uc_05_buy_items 5 1711044038 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 5 1711044038 0 localhost 0
+28 8 uc_05_buy_items 5  0 0
+28 2 uc_05_buy_items 5 1711044038 0 p 0 0
+28 4 uc_01_send_feedback 5 1711044044 0 uc_01_send_feedback_1 localhost 0 1
+28 0 uc_01_send_feedback 5 1711044044 0 localhost 0
+28 8 uc_01_send_feedback 5  0 0
+28 2 uc_01_send_feedback 5 1711044044 0 p 0 0
+28 4 uc_02_register_user 5 1711044050 0 uc_02_register_user_1 localhost 0 1
+28 0 uc_02_register_user 5 1711044050 0 localhost 0
+28 8 uc_02_register_user 5  0 0
+28 2 uc_02_register_user 5 1711044050 0 p 0 0
+28 4 uc_03_search 6 1711044056 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 6 1711044056 0 localhost 0
+28 8 uc_03_search 6  0 0
+28 2 uc_03_search 6 1711044056 0 p 0 0
+28 4 uc_06_remove_item 5 1711044063 0 uc_06_remove_item_1 localhost 0 1
+28 0 uc_06_remove_item 5 1711044063 0 localhost 0
+28 8 uc_06_remove_item 5  0 0
+28 2 uc_06_remove_item 5 1711044063 0 p 0 0
+28 4 uc_04_add_to_card 6 1711044068 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 6 1711044068 0 localhost 0
+28 8 uc_04_add_to_card 6  0 0
+28 2 uc_04_add_to_card 6 1711044068 0 p 0 0
+28 4 uc_05_buy_items 6 1711044074 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 6 1711044074 0 localhost 0
+28 8 uc_05_buy_items 6  0 0
+28 2 uc_05_buy_items 6 1711044074 0 p 0 0
+28 4 uc_03_search 7 1711044080 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 7 1711044080 0 localhost 0
+28 8 uc_03_search 7  0 0
+28 2 uc_03_search 7 1711044080 0 p 0 0
+28 4 uc_03_search 8 1711045400 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 8 1711045400 0 localhost 0
+28 8 uc_03_search 8  0 0
+28 2 uc_03_search 8 1711045400 0 p 0 0
+28 4 uc_04_add_to_card 7 1711045406 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 7 1711045406 0 localhost 0
+28 8 uc_04_add_to_card 7  0 0
+28 2 uc_04_add_to_card 7 1711045406 0 p 0 0
+28 4 uc_05_buy_items 7 1711045412 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 7 1711045412 0 localhost 0
+28 8 uc_05_buy_items 7  0 0
+28 2 uc_05_buy_items 7 1711045412 0 p 0 0
+28 4 uc_01_send_feedback 6 1711045418 0 uc_01_send_feedback_1 localhost 0 1
+28 0 uc_01_send_feedback 6 1711045419 0 localhost 0
+28 8 uc_01_send_feedback 6  0 0
+28 2 uc_01_send_feedback 6 1711045419 0 p 0 0
+28 4 uc_02_register_user 6 1711045425 0 uc_02_register_user_1 localhost 0 1
+28 0 uc_02_register_user 6 1711045425 0 localhost 0
+28 8 uc_02_register_user 6  0 0
+28 2 uc_02_register_user 6 1711045425 0 p 0 0
+28 4 uc_03_search 18 1711045431 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 18 1711045431 0 localhost 0
+28 8 uc_03_search 18  0 0
+28 2 uc_03_search 18 1711045431 0 p 0 0
+28 4 uc_06_remove_item 6 1711045437 0 uc_06_remove_item_1 localhost 0 1
+28 0 uc_06_remove_item 6 1711045437 0 localhost 0
+28 8 uc_06_remove_item 6  0 0
+28 2 uc_06_remove_item 6 1711045437 0 p 0 0
+28 4 uc_04_add_to_card 8 1711045443 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 8 1711045443 0 localhost 0
+28 8 uc_04_add_to_card 8  0 0
+28 2 uc_04_add_to_card 8 1711045443 0 p 0 0
+28 4 uc_05_buy_items 8 1711045449 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 8 1711045449 0 localhost 0
+28 8 uc_05_buy_items 8  0 0
+28 2 uc_05_buy_items 8 1711045449 0 p 0 0
+28 4 uc_03_search 29 1711045455 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 29 1711045455 0 localhost 0
+28 8 uc_03_search 29  0 0
+28 2 uc_03_search 29 1711045455 0 p 0 0
+28 4 uc_03_search 32 1711046775 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 32 1711046775 0 localhost 0
+28 8 uc_03_search 32  0 0
+28 2 uc_03_search 32 1711046775 0 p 0 0
+28 4 uc_04_add_to_card 9 1711046781 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 9 1711046781 0 localhost 0
+28 8 uc_04_add_to_card 9  0 0
+28 2 uc_04_add_to_card 9 1711046781 0 p 0 0
+28 4 uc_05_buy_items 9 1711046787 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 9 1711046787 0 localhost 0
+28 8 uc_05_buy_items 9  0 0
+28 2 uc_05_buy_items 9 1711046787 0 p 0 0
+28 4 uc_01_send_feedback 7 1711046793 0 uc_01_send_feedback_1 localhost 0 1
+28 0 uc_01_send_feedback 7 1711046793 0 localhost 0
+28 8 uc_01_send_feedback 7  0 0
+28 2 uc_01_send_feedback 7 1711046793 0 p 0 0
+28 4 uc_02_register_user 7 1711046799 0 uc_02_register_user_1 localhost 0 1
+28 0 uc_02_register_user 7 1711046799 0 localhost 0
+28 8 uc_02_register_user 7  0 0
+28 2 uc_02_register_user 7 1711046799 0 p 0 0
+28 4 uc_03_search 33 1711046805 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 33 1711046805 0 localhost 0
+28 8 uc_03_search 33  0 0
+28 2 uc_03_search 33 1711046805 0 p 0 0
+28 4 uc_06_remove_item 7 1711046811 0 uc_06_remove_item_1 localhost 0 1
+28 0 uc_06_remove_item 7 1711046811 0 localhost 0
+28 8 uc_06_remove_item 7  0 0
+28 2 uc_06_remove_item 7 1711046811 0 p 0 0
+28 4 uc_04_add_to_card 18 1711046817 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 18 1711046817 0 localhost 0
+28 8 uc_04_add_to_card 18  0 0
+28 2 uc_04_add_to_card 18 1711046817 0 p 0 0
+28 4 uc_05_buy_items 18 1711046823 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 18 1711046823 0 localhost 0
+28 8 uc_05_buy_items 18  0 0
+28 2 uc_05_buy_items 18 1711046823 0 p 0 0
+28 4 uc_03_search 56 1711046829 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 56 1711046829 0 localhost 0
+28 8 uc_03_search 56  0 0
+28 2 uc_03_search 56 1711046829 0 p 0 0
+28 4 uc_03_search 57 1711048149 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 57 1711048149 0 localhost 0
+28 8 uc_03_search 57  0 0
+28 2 uc_03_search 57 1711048149 0 p 0 0
+28 4 uc_04_add_to_card 29 1711048155 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 29 1711048155 0 localhost 0
+28 8 uc_04_add_to_card 29  0 0
+28 2 uc_04_add_to_card 29 1711048155 0 p 0 0
+28 4 uc_05_buy_items 29 1711048161 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 29 1711048161 0 localhost 0
+28 8 uc_05_buy_items 29  0 0
+28 2 uc_05_buy_items 29 1711048161 0 p 0 0
+28 4 uc_01_send_feedback 18 1711048167 0 uc_01_send_feedback_1 localhost 0 1
+28 0 uc_01_send_feedback 18 1711048167 0 localhost 0
+28 8 uc_01_send_feedback 18  0 0
+28 2 uc_01_send_feedback 18 1711048168 0 p 0 0
+28 4 uc_02_register_user 18 1711048174 0 uc_02_register_user_1 localhost 0 1
+28 0 uc_02_register_user 18 1711048174 0 localhost 0
+28 8 uc_02_register_user 18  0 0
+28 2 uc_02_register_user 18 1711048174 0 p 0 0
+28 4 uc_03_search 59 1711048180 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 59 1711048180 0 localhost 0
+28 8 uc_03_search 59  0 0
+28 2 uc_03_search 59 1711048180 0 p 0 0
+28 4 uc_06_remove_item 18 1711048186 0 uc_06_remove_item_1 localhost 0 1
+28 0 uc_06_remove_item 18 1711048186 0 localhost 0
+28 8 uc_06_remove_item 18  0 0
+28 2 uc_06_remove_item 18 1711048186 0 p 0 0
+28 4 uc_04_add_to_card 32 1711048192 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 32 1711048192 0 localhost 0
+28 8 uc_04_add_to_card 32  0 0
+28 2 uc_04_add_to_card 32 1711048192 0 p 0 0
+28 4 uc_05_buy_items 32 1711048198 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 32 1711048198 0 localhost 0
+28 8 uc_05_buy_items 32  0 0
+28 2 uc_05_buy_items 32 1711048198 0 p 0 0
+28 4 uc_03_search 68 1711048204 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 68 1711048204 0 localhost 0
+28 8 uc_03_search 68  0 0
+28 2 uc_03_search 68 1711048204 0 p 0 0
+28 4 uc_03_search 69 1711049524 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 69 1711049524 0 localhost 0
+28 8 uc_03_search 69  0 0
+28 2 uc_03_search 69 1711049524 0 p 0 0
+28 4 uc_04_add_to_card 33 1711049530 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 33 1711049530 0 localhost 0
+28 8 uc_04_add_to_card 33  0 0
+28 2 uc_04_add_to_card 33 1711049530 0 p 0 0
+28 4 uc_05_buy_items 33 1711049536 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 33 1711049536 0 localhost 0
+28 8 uc_05_buy_items 33  0 0
+28 2 uc_05_buy_items 33 1711049536 0 p 0 0
+28 4 uc_01_send_feedback 27 1711049542 0 uc_01_send_feedback_1 localhost 0 1
+28 0 uc_01_send_feedback 27 1711049542 0 localhost 0
+28 8 uc_01_send_feedback 27  0 0
+28 2 uc_01_send_feedback 27 1711049542 0 p 0 0
+28 4 uc_02_register_user 27 1711049548 0 uc_02_register_user_1 localhost 0 1
+28 0 uc_02_register_user 27 1711049548 0 localhost 0
+28 8 uc_02_register_user 27  0 0
+28 2 uc_02_register_user 27 1711049548 0 p 0 0
+28 4 uc_03_search 70 1711049554 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 70 1711049554 0 localhost 0
+28 8 uc_03_search 70  0 0
+28 2 uc_03_search 70 1711049554 0 p 0 0
+28 4 uc_06_remove_item 27 1711049560 0 uc_06_remove_item_1 localhost 0 1
+28 0 uc_06_remove_item 27 1711049560 0 localhost 0
+28 8 uc_06_remove_item 27  0 0
+28 2 uc_06_remove_item 27 1711049560 0 p 0 0
+28 4 uc_04_add_to_card 56 1711049566 0 uc_04_add_to_card_1 localhost 0 1
+28 0 uc_04_add_to_card 56 1711049566 0 localhost 0
+28 8 uc_04_add_to_card 56  0 0
+28 2 uc_04_add_to_card 56 1711049566 0 p 0 0
+28 4 uc_05_buy_items 54 1711049572 0 uc_05_buy_items_1 localhost 0 1
+28 0 uc_05_buy_items 54 1711049572 0 localhost 0
+28 8 uc_05_buy_items 54  0 0
+28 2 uc_05_buy_items 54 1711049572 0 p 0 0
+28 4 uc_03_search 81 1711049578 0 uc_03_search_1 localhost 0 1
+28 0 uc_03_search 81 1711049578 0 localhost 0
+28 8 uc_03_search 81  0 0
+28 2 uc_03_search 81 1711049578 0 p 0 0
+28 1 uc_04_add_to_card 56 1711050898 0 2
+28 1 uc_03_search 32 1711050898 0 2
+28 1 uc_02_register_user 7 1711050898 0 2
+28 1 uc_03_search 69 1711050898 0 2
+28 1 uc_01_send_feedback 18 1711050898 0 2
+28 1 uc_02_register_user 6 1711050898 0 2
+28 1 uc_03_search 70 1711050898 0 2
+28 1 uc_04_add_to_card 5 1711050898 0 2
+28 1 uc_01_send_feedback 5 1711050898 0 2
+28 1 uc_03_search 33 1711050898 0 2
+28 1 uc_05_buy_items 32 1711050898 0 2
+28 1 uc_03_search 5 1711050898 0 2
+28 1 uc_04_add_to_card 32 1711050898 0 2
+28 1 uc_05_buy_items 7 1711050898 0 2
+28 1 uc_06_remove_item 6 1711050898 0 2
+28 1 uc_03_search 29 1711050898 0 2
+28 1 uc_05_buy_items 33 1711050898 0 2
+28 1 uc_04_add_to_card 7 1711050898 0 2
+28 1 uc_03_search 68 1711050898 0 2
+28 1 uc_05_buy_items 6 1711050898 0 2
+28 1 uc_05_buy_items 29 1711050898 0 2
+28 1 uc_01_send_feedback 7 1711050898 0 2
+28 1 uc_06_remove_item 7 1711050898 0 2
+28 1 uc_05_buy_items 18 1711050898 0 2
+28 1 uc_03_search 18 1711050899 0 2
+28 1 uc_03_search 56 1711050901 0 2
+28 1 uc_05_buy_items 8 1711050901 0 2
+28 1 uc_01_send_feedback 27 1711050902 0 2
+28 1 uc_03_search 59 1711050902 0 2
+28 1 uc_02_register_user 18 1711050906 0 2
+28 1 uc_03_search 7 1711050907 0 2
+28 1 uc_01_send_feedback 6 1711050907 0 2
+28 1 uc_04_add_to_card 9 1711050907 0 2
+28 1 uc_03_search 81 1711050907 0 2
+28 1 uc_06_remove_item 27 1711050910 0 2
+28 1 uc_04_add_to_card 6 1711050912 0 2
+28 1 uc_03_search 8 1711050913 0 2
+28 1 uc_03_search 57 1711050916 0 2
+28 1 uc_05_buy_items 9 1711050916 0 2
+28 1 uc_04_add_to_card 29 1711050918 0 2
+28 1 uc_06_remove_item 5 1711050918 0 2
+28 1 uc_03_search 6 1711050920 0 2
+28 1 uc_02_register_user 5 1711050923 0 2
+28 1 uc_05_buy_items 5 1711050923 0 2
+28 1 uc_04_add_to_card 8 1711050926 0 2
+28 1 uc_02_register_user 27 1711050931 0 2
+28 1 uc_04_add_to_card 33 1711050932 0 2
+28 1 uc_06_remove_item 18 1711050939 0 2
+28 1 uc_04_add_to_card 18 1711050940 0 2
+28 1 uc_05_buy_items 54 1711050951 0 2
+28 12 1711050951 1 1711050951 0 1711050951

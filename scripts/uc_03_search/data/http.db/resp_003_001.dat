@@ -1,0 +1,13 @@
+--batchresponse_c913319b-c47f-4929-b9b6-e2da0ede9d80
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+HTTP/1.1 404 Not Found
+X-AFS-Tracking: cV=7OQ286je1UOKxJvPzLGkww.98.2.4.0.1.0;server=SG2PEPF000CAEAC
+client-request-id: e77ca91e-7d29-4072-814f-9744f44c0a27
+Date: Wed, 20 Mar 2024 12:36:34 GMT
+X-Content-Type-Options: nosniff
+Content-Type: application/json
+
+{"ErrorCode":12,"ErrorMessage":"No activities to delete."}
+--batchresponse_c913319b-c47f-4929-b9b6-e2da0ede9d80--

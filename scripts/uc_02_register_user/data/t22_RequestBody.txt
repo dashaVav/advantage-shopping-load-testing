@@ -1,0 +1,8 @@
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.o"
+"rg/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http:/"
+"/www.w3.org/2001/XMLSchema\"><soap:Body><AccountCreateRequest xmlns=\"com.advantage.online.sto"
+"re.accountservice\"><accountType>USER</accountType><address>s</address><allowOffersPromotion>t"
+"rue</allowOffersPromotion><cityName>s</cityName><countryId>Bangladesh,bd</countryId><email>das"
+"ha11@gmail.com</email><firstName>as</firstName><lastName>ss</lastName><loginName>dasha11</logi"
+"nName><password>Dasha11</password><phoneNumber>ss</phoneNumber><stateProvince>s</stateProvince"
+"><zipcode></zipcode></AccountCreateRequest></soap:Body></soap:Envelope>"

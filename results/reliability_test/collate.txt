@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\HUAWEI\Documents\advantage-shopping-load-testing\controllers\reliability_test.lrs
+Completed=0
