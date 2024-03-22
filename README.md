@@ -1,1 +1,0 @@
-# advantage-shopping-load-testing
